@@ -1,15 +1,18 @@
 #summary The page provides links to useful components of GAMA project
 
+
+---------------------------------------------------------------------------------
 = Development version of components =
- * http://research.ciant.cz/gama/devel/GamaRepository/ - SOAP service
+ * http://research.ciant.cz/gama/devel/GamaRepository/ - SOAP interface
  * http://research.ciant.cz/gama/devel/GamaRepository/endpoint/ - Endpoint interface
  * http://research.ciant.cz/gama/devel/GamaRepository/schema/ - on-line version of the repository structure
  * http://research.ciant.cz/gama/devel/GamaRepository/soa/?service=ListServices - Experimental SOA services
  * http://research.ciant.cz/gama/devel/GamaRepository/soa/?service=List_Repo_Properties - List of all properties defined in the repository
 
+---------------------------------------------------------------------------------
 = Stable version of components =
 == RDF Repository ==
- * http://research.ciant.cz/gama/GamaRepository/ - SOAP service
+ * http://research.ciant.cz/gama/GamaRepository/ - SOAP interface
  * http://research.ciant.cz/gama/GamaRepository/endpoint/ - Endpoint interface
  * http://research.ciant.cz/gama/GamaRepository/schema/ - online version of repository structure
  * http://research.ciant.cz/gama/GamaRepository/soa/?service=ListServices - Experimental SOA services
@@ -17,5 +20,6 @@
 
 == Java Middleware ==
 
+---------------------------------------------------------------------------------
 = Other Links =
  * http://research.ciant.cz/gama/schemadoc/ - Latest GAMA Metadata Schema documentation
