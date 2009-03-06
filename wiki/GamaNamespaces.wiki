@@ -1,0 +1,38 @@
+= Introduction =
+
+It is impossible for everybody to be familiar with all URI conventions and namespaces used in the GAMA project. For example, DB-Adapters produce different kinds of URIs. Even the GAMA Metadata Schema uses multiple namespaces.
+
+=== URI ===
+Each statement stored in the repository consists of 3 parts: *subject*, *predicate*, *object*.
+
+Each statement provides an information about the relationship between resources or literal values. A resource is always identified by a world-wide unique identifier called URI.
+
+Example: `http://gama-gateway.eu/schema/Work` is a unique identifier of the Work class from the GAMA Metadata Schema.
+
+=== Namespace ===
+Namespaces is a mechanism which simplifies the usage of URIs.
+
+Example: instead of a list of URIs`
+ * `http://gama-gateway.eu/schema/Work`
+ * `http://gama-gateway.eu/schema/Manifestation`
+ * `http://gama-gateway.eu/schema/Person`
+
+one could write: `PREFIX gama: <http://gama-gateway.eu/schema/>`
+ * `gama:Work`
+ * `gama:Manifestation`
+ * `gama:Person`
+
+
+=== Base URI ===
+During the insert operation inside the RDF repository, all statements are associated with a specific graph name. In case of an RDF/XML file, the graph name is defined by the {{{xml:base attribute}}} of the {{{rdf:RDF}}} root XML element. The concept of separate graphs provides an easy yet powerful mechanism for identification and manipulation of statements. A graph with all its statements can easily be deleted using the SPARQL DELETE statement.
+
+In other words, Base URI allows for grouping statements and easy manipulation.
+
+
+= List of namespace =
+
+== `http://gama-gateway.eu/schema/` ==
+== `http://gama-gateway.eu/schema/WorkType/` ==
+== `http://gama-gateway.eu/schema/Genre/` ==
+
+... and more to come
