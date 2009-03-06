@@ -1,4 +1,4 @@
-# List of all namespaces used within the GAMA project
+#summary List of all namespaces used within the GAMA project
 
 = Introduction =
 
