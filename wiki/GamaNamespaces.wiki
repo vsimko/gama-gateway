@@ -33,8 +33,28 @@ In other words, Base URI allows for grouping statements and easy manipulation.
 
 = List of namespace =
 
+----------------------------------------------------------------------------------
 == `http://gama-gateway.eu/schema/` ==
+The namespace is used for all resources that are part of the GAMA Metadata Schema i.e. properties, classes and also some specific function of the RDF repository. For more information see the generated documentation at http://research.ciant.cz/gama/schemadoc/
+
+*Examples:*
+ * `http://gama-gateway.eu/schema/Work` class
+ * `http://gama-gateway.eu/schema/work_title` property
+ * `http://gama-gateway.eu/schema/dateIntervalBegin` function in the SPARQL
+
+
+----------------------------------------------------------------------------------
+== `http://gama-gateway.eu/cache/` ==
+This namespace is used within the ontology which defines the caching properties. The GAMA Metadata Schema described in the Deliverable 2.3 has further been extended on the basis of the new caching mechanism designed by CIANT. The main goal is to enhance the overall query performance of GAMA portal.
+
+*Example:*
+ * `http://gama-gateway.eu/cahe/fulltext_works` property
+
+----------------------------------------------------------------------------------
 == `http://gama-gateway.eu/schema/WorkType/` ==
+
+
+----------------------------------------------------------------------------------
 == `http://gama-gateway.eu/schema/Genre/` ==
 
 ... and more to come
