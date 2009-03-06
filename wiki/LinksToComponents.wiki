@@ -1,0 +1,13 @@
+#summary The page provides links to useful components of GAMA project
+
+= RDF Repository =
+ * http://research.ciant.cz/gama/GamaRepository/ - Stable SOAP service
+ * http://research.ciant.cz/gama/devel/GamaRepository/ - Development SOAP service
+ * http://research.ciant.cz/gama/GamaRepository/endpoint/ - Stable endpoint interface
+ * http://research.ciant.cz/gama/devel/GamaRepository/endpoint/ - Development endpoint interface
+ * http://research.ciant.cz/gama/GamaRepository/soa/ - Stable SOA services
+ * http://research.ciant.cz/gama/devel/GamaRepository/soa/ - Development SOA services
+ * http://research.ciant.cz/gama/schemadoc/ - Stable version of GAMA Metadata Schema documentation
+ * http://research.ciant.cz/gama/devel/schemadoc/ - Development version of GAMA Metadata Schema documentation
+
+= Java Middleware =
