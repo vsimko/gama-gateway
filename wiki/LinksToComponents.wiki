@@ -13,7 +13,7 @@
 == Java Middleware ==
  * http://omsk.hku.nl:8080/gama-web/json?service=search&artist_title=Vasulka&sortorder=up&sorttag=name&paramlist=provided_by,person_name,work_created,work_title,work_description,work_image,manif_url,idx_process,has_manifestation,has_creator&archive=NIMK&pagesize=10&pagenumber=1 - Json service for frontend 
  * http://gamaweb.hku.nl/ - Typo3 frontend will move to CIANT  
- * http://research.ciant.cz:8080/gama-web/namebrowser/index.html  - Experimental Artis name browser UIs  
+ * http://research.ciant.cz:8080/gama-web/namebrowser/index.html  - Experimental Artist name browser UIs  
  
 ---------------------------------------------------------------------------------
 = Stable version of components =
