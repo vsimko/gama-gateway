@@ -3,11 +3,17 @@
 
 ---------------------------------------------------------------------------------
 = Development version of components =
+== RDF Repository ==
  * http://research.ciant.cz/gama/devel/GamaRepository/ - SOAP interface
  * http://research.ciant.cz/gama/devel/GamaRepository/endpoint/ - Endpoint interface
  * http://research.ciant.cz/gama/devel/GamaRepository/schema/ - on-line version of the repository structure
  * http://research.ciant.cz/gama/devel/GamaRepository/soa/?service=ListServices - Experimental SOA services
  * http://research.ciant.cz/gama/devel/GamaRepository/soa/?service=List_Repo_Properties - List of all properties defined in the repository
+
+== Java Middleware ==
+ * TODO
+ * TODO
+ * TODO
 
 ---------------------------------------------------------------------------------
 = Stable version of components =
@@ -19,6 +25,9 @@
  * http://research.ciant.cz/gama/GamaRepository/soa/?service=List_Repo_Properties - List of all properties defined in the repository
 
 == Java Middleware ==
+ * TODO
+ * TODO
+ * TODO
 
 ---------------------------------------------------------------------------------
 = Other Links =
