@@ -1,3 +1,5 @@
+# List of all namespaces used within the GAMA project
+
 = Introduction =
 
 It is impossible for everybody to be familiar with all URI conventions and namespaces used in the GAMA project. For example, DB-Adapters produce different kinds of URIs. Even the GAMA Metadata Schema uses multiple namespaces.
