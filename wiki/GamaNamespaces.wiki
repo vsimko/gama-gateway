@@ -14,7 +14,7 @@ Example: `http://gama-gateway.eu/schema/Work` is a unique identifier of the Work
 === Namespace ===
 Namespaces is a mechanism which simplifies the usage of URIs.
 
-Example: instead of a list of URIs`
+Example of usage in SPARQL: instead of URIs
  * `http://gama-gateway.eu/schema/Work`
  * `http://gama-gateway.eu/schema/Manifestation`
  * `http://gama-gateway.eu/schema/Person`
@@ -24,6 +24,7 @@ one could write: `PREFIX gama: <http://gama-gateway.eu/schema/>`
  * `gama:Manifestation`
  * `gama:Person`
 
+For more information about XML namespaces see http://www.w3.org/TR/REC-xml-names/
 
 === Base URI ===
 During the insert operation inside the RDF repository, all statements are associated with a specific graph name. In case of an RDF/XML file, the graph name is defined by the {{{xml:base attribute}}} of the {{{rdf:RDF}}} root XML element. The concept of separate graphs provides an easy yet powerful mechanism for identification and manipulation of statements. A graph with all its statements can easily be deleted using the SPARQL DELETE statement.
