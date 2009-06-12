@@ -1,4 +1,4 @@
-#summary Description of the wiki element
+#summary list of Custom tag parsers in GAMA Wiki
 
 = Introduction =
 Custom RDF Metadata Parsers for GAMA Wiki.
