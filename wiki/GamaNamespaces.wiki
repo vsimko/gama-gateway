@@ -32,7 +32,7 @@ During the insert operation inside the RDF repository, all statements are associ
 In other words, Base URI allows for grouping statements and easy manipulation.
 
 
-= List of namespace =
+= List of namespaces =
 
 ----------------------------------------------------------------------------------
 == `http://gama-gateway.eu/schema/` ==
