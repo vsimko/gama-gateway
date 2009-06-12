@@ -1,15 +1,25 @@
 #summary Description of the wiki element
 
 = Introduction =
+Custom RDF Metadata Parsers for GAMA Wiki.
 
-Add your content here.
 
 
 = Details =
+there are currently 4 types of tags.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+* 1. {{ #gama: gama:instants:main:Work:2994 | video }}*
+ * this tag when parsed will play the video file ( manifestation ) for the corresponding work.
+ * Flowplayer ( an Open Source (GPL 3) video player for the Web ) is used to stream the video
 
-= Intended functionality =
+* 2. {{ #gama: gama:instants:main:Work:2700 | full | fr }}*
+ * this tag when parsed will create a table with full description like Type,Title,Artist,Information of the work.
+ * this tag will look for the Language french denoted by 'fr'. If found it will display the content in french else it will display the content in default language. 
+
+* 3. {{ #gama: gama:instants:main:Work:2700 | short | fr }}*
+ * this tag when parsed will create a table with Title and Artist of the work.
+ * this tag will similarly look for content in french.
+
+* 3. {{ #gama: gama:instants:main:Work:2700 | name | fr }}*
+ * this tag when parsed will create a table with only the name of Artist of the work.
+ * the language 'fr' has no use and can be omitted from the tag.
