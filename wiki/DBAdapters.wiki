@@ -1,0 +1,13 @@
+#summary Description of DB-Adapters for individual content providers
+#labels Phase-QA,Phase-Implementation
+
+= Introduction =
+
+This page should provide an overview of the implementation approach and the current status of database adapters. The information provided here is useful for content partners interested in a brief description about the way their data is translated to the GAMA format. Also the various quality checks are briefly described here.
+
+
+== DB-Adapter: Montevideo ==
+
+ * Insert some general description about the content partner here
+ * Describe the quality assurance-related checks
+ * Describe the process of notification about error in the mapping
