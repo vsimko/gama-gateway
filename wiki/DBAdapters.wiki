@@ -6,13 +6,21 @@
 This page should provide an overview of the implementation approach and the current status of database adapters. The information provided here is useful for content partners interested in a brief description about the way their data is *translated* to the GAMA format. Also the various *quality checks* are briefly described here.
 
 
-== DB-Adapter: Montevideo ==
+== DB-Adapter: Ars Electronica Center ==
+== DB-Adapter: Argos vzw Centre for Art and Media ==
+== DB-Adapter: C³ Center for Culture & Communication ==
+== DB-Adapter: Filmform ==
+== DB-Adapter: Heure Exquise ! ==
+== DB-Adapter: Les Instants Vidéo ==
+
+
+== DB-Adapter: Netherlands Media Art Institute - Montevideo/Time Based Arts ==
 
  * Insert some general description about the content partner here
  * Describe the quality assurance-related checks
  * Describe the process of notification about error in the mapping
 
-== DB-Adapter: Diva ==
+== DB-Adapter: DIVA ==
 
 Added by Viliam Simko: From my point of view, XML files are prepared directly by the content partner. Sometimes, there are references to URIs that do not represent real Works. This seems to be a problem of the exporting script of the content partner that the db-adapter cannot solve. Therefore the QA checks include following procedure:
  * Validity of URIs is performed for all works (eg. spaces are not allowed)
