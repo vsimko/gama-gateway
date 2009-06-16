@@ -22,8 +22,8 @@ This page should provide an overview of the implementation approach and the curr
 
 == DB-Adapter: DIVA ==
 
-Added by Viliam Simko: From my point of view, XML files are prepared directly by the content partner. Sometimes, there are references to URIs that do not represent real Works. This seems to be a problem of the exporting script of the content partner that the db-adapter cannot solve. Therefore the QA checks include following procedure:
+*Added by Viliam Simko:* From my point of view, XML files are prepared directly by the content partner. Sometimes, there are references to URIs that do not represent real Works. This seems to be a problem of the exporting script of the content partner that the db-adapter cannot solve. Therefore the QA checks include following procedure:
  * Validity of URIs is performed for all works (eg. spaces are not allowed)
  * Every work must contain at least title, description and creation date
 
-All identified problems are written to a single list which is sent to the content partner.
+All identified problems are written to a single file which is sent to the content partner.
