@@ -11,3 +11,11 @@ This page should provide an overview of the implementation approach and the curr
  * Insert some general description about the content partner here
  * Describe the quality assurance-related checks
  * Describe the process of notification about error in the mapping
+
+== DB-Adapter: Diva ==
+
+Added by Viliam Simko: From my point of view, XML files are prepared directly by the content partner. Sometimes, there are references to URIs that do not represent real Works. This seems to be a problem of the exporting script of the content partner that the db-adapter cannot solve. Therefore the QA checks include following procedure:
+ * Validity of URIs is performed for all works (eg. spaces are not allowed)
+ * Every work must contain at least title, description and creation date
+
+All identified problems are written to a single list which is sent to the content partner.
