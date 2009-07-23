@@ -7,18 +7,81 @@ This page should provide an overview of the implementation approach and the curr
 
 
 == DB-Adapter: Ars Electronica Center ==
+
+XML files are prepared directly by the content partner.<br/>
+They underlie a simplified schema and therefore have to be transformed to GAMA schema.<br/>
+*Persons*
+ * Unfortunately the type of person (real person/collective) is not given, so this have to be mapped. The content partner created an Excel sheet for this reason.
+ * Life_span is also not provided.
+ * 67 without person_country.
+*Works*
+ * There are duplicates, e.g. 5x Event:11993 (everyone has an other image_url)
+ * The received files also do not contain worktypes/genres and keywords.
+ * 73 works have no creator
+ * 671 have no description.
+
 == DB-Adapter: Argos vzw Centre for Art and Media ==
+
+Content partner provide a database dump with all required informations, including mapping.<br/>
+Only keywords are not provided atm.<br/>
+*=> There are problems with encoding of the new database dump <=*
+
 == DB-Adapter: C³ Center for Culture & Communication ==
+
+XML files are prepared directly by the content partner.<br/>
+They underlie a simplified schema and therefore have to be transformed to GAMA schema.<br/>
+*Persons*
+ * 91 without life_span.
+ * 81 without Person_country.
+*Works*
+ * 10 works have no creator
+ * 76 works have worktypes that do no match to the kind of work
+ ** 72 events   with work_type  Documentation (worktype of a resource)
+ ** 3 artworks with work_type  Documentation (worktype of a resource)
+ ** 1 artwork  with work_type  Conference    (worktype of an event)
+
 == DB-Adapter: Filmform ==
+
+Connection via ODBC (Filemaker database -> only *Windows driver* given).<br/>
+*Persons*
+ * 37 without life_span
+ * 10 without person_country
+*Works*
+All works have a worktype and a creation date, 2 have no creator and 15 no description.
+
 == DB-Adapter: Heure Exquise ! ==
+
+Content partner want(ed) to create a new database. <br/>
+We are still waiting for it.<br/>
+
+In the old database in case of persons only names were given and sometimes 'kind of person' were incorrect.
+
 == DB-Adapter: Les Instants Vidéo ==
+
 
 
 == DB-Adapter: Netherlands Media Art Institute - Montevideo/Time Based Arts ==
 
- * Insert some general description about the content partner here
- * Describe the quality assurance-related checks
- * Describe the process of notification about error in the mapping
+Database dump given.
+
+*Persons*
+ * 311 without life_span.
+ * 283 without person_country
+*Works*
+ * artworks
+ ** 1719 without work_type
+ ** 366 without has_creator
+ ** 72 without work_created
+ ** 864 without work_description
+ ** Countries given in text format => transformation to ISO-Codes
+ * events 
+ ** 2 without WorkTypes. 
+ ** 1 without description. 
+ * resources (Documentations of events)
+ ** 37 without description.
+ ** 3 without work_created
+ ** 178 without related events
+ ** no related persons included yet because roles of artists are unclear
 
 == DB-Adapter: DIVA ==
 
