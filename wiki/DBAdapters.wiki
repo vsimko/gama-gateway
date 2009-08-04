@@ -47,6 +47,9 @@ Only keywords are not provided atm.<br/>
 
 XML files are prepared directly by the content partner.<br/>
 They underlie a simplified schema and therefore have to be transformed to GAMA schema.<br/>
+
+ * Encoding is mixed up!!!
+
 *Persons*
  * 91 without life_span.
  * 81 without Person_country.
