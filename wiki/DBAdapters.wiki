@@ -5,20 +5,37 @@
 
 This page should provide an overview of the implementation approach and the current status of database adapters. The information provided here is useful for content partners interested in a brief description about the way their data is *translated* to the GAMA format. Also the various *quality checks* are briefly described here.
 
+*Mandatory data for the frontend*
+
+ * *works*:<br/>- archive <br/>- work_title<br/>- creation date: work_created/presentation_date (at least a year)<br/>- creator<br/>- work_type<br/>- work_description<br/>- manifestation
+ * *artists*:<br/>- person_name<br/>- life_span<br/>- person_country
+
 
 == DB-Adapter: Ars Electronica Center ==
 
 XML files are prepared directly by the content partner.<br/>
-They underlie a simplified schema and therefore have to be transformed to GAMA schema.<br/>
-*Persons*
- * Unfortunately the type of person (real person/collective) is not given, so this have to be mapped. The content partner created an Excel sheet for this reason.
- * Life_span is also not provided.
- * 67 without person_country.
-*Works*
- * There are duplicates, e.g. 5x Event:11993 (everyone has an other image_url)
- * The received files also do not contain worktypes/genres and keywords.
- * 73 works have no creator
- * 671 have no description.
+They underlie a simplified schema and therefore have to be transformed to GAMA schema.
+
+=== Data ===
+
+ * Used encoding (by cp): ISO-8859-1
+
+*Artists* -^- 470 (455 Persons, 15 Collectives)
+
+ * *Kind of artist (Person <> Collective)*<br/>Unfortunately the type of artist is not given, so this have to be mapped. <br/>The content partner created an Excel sheet for this reason (but it's uncomplete atm).
+ * There are 41 _negative_ values for IDs:<br/>Person: -49, -47, -46, -45, -43, -42, -41, -40, -39, -36, -34, -33, -30, -29, -28, -27, -26, -25, -24, -23, -22, -21, -20, -19, -18, -17, -16, -15, -14, -13, -11, -10, - 9, - 8, - 7, - 6, - 5, - 4, - 3, - 2, - 1.<br/>Collective: -44.<br/>In this cases only person_name is given.<br/>-
+ * person_name: always given.
+ * <font color="red">life_span: not provided.</font>
+ * person_country : 67 persons have no person_country.
+
+*Works* -^- 814 (Artworks: 731 , Events: 83) 
+
+ * There are duplicates, e.g. 5x Event:11993 (everyone has an other image_url)<br/>-
+ * work_title: always given.
+ * work_created: always given.
+ * <font color="red">creator: 73 works have no creator!</font>
+ * <font color="red">work_type: received files do not contain worktypes/genres and keywords.</font>
+ * <font color="red">work_description: 671 works have no description.</font>
 
 == DB-Adapter: Argos vzw Centre for Art and Media ==
 
