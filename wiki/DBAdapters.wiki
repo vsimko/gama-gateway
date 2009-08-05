@@ -40,8 +40,35 @@ They underlie a simplified schema and therefore have to be transformed to GAMA s
 == DB-Adapter: Argos vzw Centre for Art and Media ==
 
 Content partner provide a database dump with all required informations, including mapping.<br/>
-Only keywords are not provided atm.<br/>
+Only keywords are not provided atm.
+
 *=> There are problems with encoding of the new database dump <=*
+
+=== Data ===
+
+*Artists* -^- 3946 (3333 persons, 613 collectives)
+
+ * person_name: always given.
+ * <font color="red">life_span: 3805 without lifespan.</font>
+ * <font color="red">person_country: 3859 without country.</font>
+
+*Works* -^- 4219 (1250 artworks, 2967 events, 2 resources)
+
+ # *artworks*
+  * <font color="red">work_title: 3 without title (3688bd4e01b44d40aa95bcbba0b4877f, 609d9460a5214ff8abd6610acfac7744, bf897909a2734997ba0677c7fbf9d46e)</font>
+  * <font color="red">work_created: 37 without creation date.</font>
+  * <font color="red">creator: 14 without creator! (0b91d8ac2f8d4176a141789ae517f0a9, 10768078cfa44befa46ac1e1611716bd, 1976b2f598a94ae08f268d10fe976b38, 2f42d022e78d45d3b1d2e0e3722889ad, 3688bd4e01b44d40aa95bcbba0b4877f, 36c3a2b943714167b1cee4e8d234c094, 4db5bc6411f94718835b409ca793ee1e, 4f20bf5f94e74deab50b656e92adbfb4, 8659f3f783ca47659ddaddc5f9c55fec, a2852d2a297542d39d0949b87a210087, c5d0ddb2ad724a45a3d6fd4f1c1adf4c, c735cd9d1b0d4361bae2e5ce60f3ca31, e52b59338d464c9b847c404698ddcf5e, f8cfe9acb0014bdcaada008f39d1e939)</font>
+  * <font color="blue">work_type: atm manually defined as "FilmArt" (mail Febr, 8)</font>
+  * <font color="red">work_description: 177 without description.</font>
+ # *events*
+  * work_title: always given.
+  * <font color="red">presentation_date: 27 without date.</font>
+  * <font color="red">creator: 101 events not related to any person.</font>
+  * <font color="red">work_type: 2908 without worktype.</font>
+  * <font color="red">work_description: 2899 without description.</font>
+ # *resources*
+  * only resources of events that are in distribution (resourceevents)
+  * all mandatory fields given.
 
 == DB-Adapter: C³ Center for Culture & Communication ==
 
@@ -62,7 +89,7 @@ They underlie a simplified schema and therefore have to be transformed to GAMA s
  * <font color="red">work_created/presentation_date: 287 have no creation date.</font> 
  * <font color="red">creator: 111 works without creator</font>
  * <font color="red">work_type: 112 have no worktype.<br/>-> unknown and mismatched worktypes:</font>
-   <font color="red">87 events with worktype 'Documentation' (worktype of a resource)<br/> 1 event  with worktype 'VideoArt' (worktype of an artwork)<br/>13 artworks with worktype 'Experimental Film'<br/>4 artworks with worktype 'Documentation' (worktype of a resource)<br/> 1 artwork with worktype 'Short feature film'<br/> 6 artwork with worktype 'Video Magazine'</font>
+   <font color="red">87 events with worktype _Documentation_ (worktype of a resource)<br/> 1 event  with worktype _VideoArt_ (worktype of an artwork)<br/>13 artworks with worktype _Experimental Film_<br/>4 artworks with worktype _Documentation_ (worktype of a resource)<br/> 1 artwork with worktype _Short feature film_<br/> 6 artwork with worktype _Video Magazine_</font>
  * <font color="red">work_description: 241 have no description. </font>
 
 == DB-Adapter: Filmform ==
