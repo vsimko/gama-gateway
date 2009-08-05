@@ -189,4 +189,18 @@ MySQL database dump given.
  * Validity of URIs is performed for all works (eg. spaces are not allowed)
  * Every work must contain at least title, description and creation date
 
-All identified problems are written to a single file which is sent to the content partner.
+=== Data ===
+
+*Artists* -^- 86 (83 Persons, 3 Collectives) 
+
+ * person_name: always given.
+ * <font color="red">life_span: not provided.</font>
+ * <font color="red">person_country: 67 without country.</font>
+
+*Works* -^- 379 (359 artworks, 14 events, 6 resources)
+
+ * work_title: always given.
+ * <font color="red">work_created/presentation_date: 5 without date. (244, 279, 357, 510, 642)</font>
+ * creator: always given.
+ * <font color="red">work_type: 4 without worktype. (324, 667, 668, 670)</font>
+ * work_description: always given.
