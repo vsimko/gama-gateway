@@ -94,12 +94,23 @@ They underlie a simplified schema and therefore have to be transformed to GAMA s
 
 == DB-Adapter: Filmform ==
 
-Connection via ODBC (Filemaker database -> only *Windows driver* given).<br/>
-*Persons*
- * 37 without life_span
- * 10 without person_country
-*Works*
-All works have a worktype and a creation date, 2 have no creator and 15 no description.
+Connection via ODBC (Filemaker database -> only *Windows driver* given).
+
+=== Data ===
+
+*Artists* -^- 242 (234 Persons, 8 Collectives)
+
+ * person_name: always given.
+ * <font color="red">life_span: 37 without life_span.</font>
+ * <font color="red">person_country: 9 without person_country.</font>
+
+*Works* -^- 612 (612 artworks)
+
+ * work_title: always given.
+ * <font color="red">work_created: 10 without creation date. (0735, 0565, 0985, 2208, 2697, 2712, 2878, 2947, 3230, 0850)</font>
+ * <font color="red">creator: 2 without creator. (2886, 3233)</font>
+ * <font color="red">work_type: 17 without worktype. (0565, 0735, 0850, 0985, 2094, 2206, 2208, 2517, 2602, 2697, 2712, 2878, 2947, 3005, 3228, 3230, 3251)<br/>*Work:0724 has 2 worktypes.*</font>
+ * <font color="red">work_description: 19 without description. _Swedish_ description often only the following text: "Short summary"!?</font>
 
 == DB-Adapter: Heure Exquise ! ==
 
