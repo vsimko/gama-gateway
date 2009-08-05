@@ -108,6 +108,22 @@ We are still waiting for it.<br/>
 
 In the old database in case of persons only names were given and sometimes 'kind of person' were incorrect.
 
+=== Data (dump: 2008-12-17) ===
+
+*Artists* -^- 1293 (1273 Persons, 20 Collectives)
+
+ * person_name:
+ * <font color="red">life_span: not provided.</font>
+ * <font color="red">person_country: not provided.</font>
+
+*Works* -^- 2725 (2725 artworks)
+
+ * work_title: always given.
+ * <font color="red">work_created: 16 without creation date. </font>
+ * <font color="red">creator: 3 without creator. (IDs 67, 2260, 3773)</font>
+ * <font color="red">work_type: 1 without work_type. (ID 67)</font>
+ * <font color="red">work_description:  1 without description. (ID 67)</font>
+
 == DB-Adapter: Les Instants Vidéo ==
 
 MySQL database dump given.
