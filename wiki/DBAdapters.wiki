@@ -48,17 +48,22 @@ Only keywords are not provided atm.<br/>
 XML files are prepared directly by the content partner.<br/>
 They underlie a simplified schema and therefore have to be transformed to GAMA schema.<br/>
 
- * Encoding is mixed up!!!
+ * Used Encoding: UTF-8<br/>*Encoding is mixed up!!!*<br/>Line 3895 not UTF-8
 
-*Persons*
- * 91 without life_span.
- * 81 without Person_country.
-*Works*
- * 10 works have no creator
- * 76 works have worktypes that do no match to the kind of work
- ** 72 events   with work_type  Documentation (worktype of a resource)
- ** 3 artworks with work_type  Documentation (worktype of a resource)
- ** 1 artwork  with work_type  Conference    (worktype of an event)
+*Artists* -^- 287 (266 Persons, 21 Collectives)
+
+ * person_name: always given.
+ * <font color="red">life_span: 132 without life_span.</font>
+ * <font color="red">person_country: 113 without country.</font>
+
+*Works* -^- 321 (214 artworks, 99 events, 8 resources)
+
+ * work_title: always given.
+ * <font color="red">work_created/presentation_date: 287 have no creation date.</font> 
+ * <font color="red">creator: 111 works without creator</font>
+ * <font color="red">work_type: 112 have no worktype.<br/>-> unknown and mismatched worktypes:</font>
+   <font color="red">87 events with worktype 'Documentation' (worktype of a resource)<br/> 1 event  with worktype 'VideoArt' (worktype of an artwork)<br/>13 artworks with worktype 'Experimental Film'<br/>4 artworks with worktype 'Documentation' (worktype of a resource)<br/> 1 artwork with worktype 'Short feature film'<br/> 6 artwork with worktype 'Video Magazine'</font>
+ * <font color="red">work_description: 241 have no description. </font>
 
 == DB-Adapter: Filmform ==
 
