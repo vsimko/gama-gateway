@@ -151,7 +151,7 @@ MySQL database dump given.
 
  * unfortunately the table 'categories' contains all kinds of categories (e.g. countries, worktypes, terms) without any differentiation, so atm we split the table and then map the data<br/>-
  * work_title: always given.
- * <font color="red">work_created: 134 without creation date.</font><br/>There's also some strange data like _4'40_ and _years in text format_ like "travail évolutif depuis 1999". Maybe Instants shouldn't work with simple text fields and define a consistent format?!
+ * <font color="red">work_created: 134 without creation date.</font><br/>There's also some strange data like _4'40_ and years in text format like "travail évolutif depuis 1999". Maybe Instants shouldn't work with simple text fields and define a consistent format?!
  * <font color="red">creator: 23 without creator. (105, 139, 162, 233, 435, 858, 1245, 1694, 1774, 1799, 1865, 1895, 2148, 2393, 2437, 2440, 2991, 3067, 3222, 3223, 3425, 3437, 3577)</font>
  * <font color="red">work_type: 929 without worktype.</font>
  * <font color="red">work_description: 580 without description.</font>
