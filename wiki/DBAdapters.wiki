@@ -177,7 +177,7 @@ MySQL database dump given.
  # *artworks*
   * work_title: always given.
   * <font color="red">work_created: 77 without work_created.</font>
-  * <font color="red">creator: 366 without creator.</font>
+  * <font color="red">creator: 2 without creator. (6650, 6656)</font>
   * <font color="red">work_type: 1719 without work_type.</font>
   * <font color="red">work_description: 883 without description.</font>
  # *events*
