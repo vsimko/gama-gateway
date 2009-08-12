@@ -164,11 +164,11 @@ MySQL database dump given.
  
  * Countries are given in text format => transformation to ISO-Codes
 
-*Artists* -^- 555 (477 Persons, 78 Collectives)
+*Artists* -^- 806 (697 Persons, 109 Collectives)
 
  * person_name: always given.
- * life_span: <font color="red">311 without life_span.</font>
- * person_country: <font color="red">283 without person_country</font>
+ * life_span: <font color="red">524 without life_span.</font>
+ * person_country: <font color="red">460 without person_country</font>
 
 *Collections* -^- 5
 
