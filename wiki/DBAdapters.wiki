@@ -172,7 +172,7 @@ MySQL database dump given.
 
 *Collections* -^- 5
 
-*Works* -^- 3481 (3095 artworks, 170 events, 216 resources)
+*Works* -^- 3493 (3095 artworks, 170 events, 312 resources)
 
  # *artworks*
   * work_title: always given.
@@ -187,12 +187,12 @@ MySQL database dump given.
   * <font color="red">work_type: 2 without worktype. (Event 1, Event 257)</font>
   * <font color="red">work_description: 1 without any description (18 without description in english).</font>
  # *resources* (Documentations of events)
-  * 178 without related events
+  * 217 without related events
   * work_title: always given.
-  * <font color="red">work_created: 3 without work_created (Resources: 14320, 14359, 14379)</font>
-  * <font color="red">creator: no related persons included yet because roles of artists are unclear</font>
+  * <font color="red">work_created: 19 without creation date</font>
+  * creator: always given.<br/>if role not given or "subject" used gama:related_person
   * <font color="blue">work_type: defined as "Documentation"</font>
-  * <font color="red">work_description: 37 without description.</font>
+  * <font color="red">work_description: 133 without description.</font>
 
 == DB-Adapter: DIVA ==
 
