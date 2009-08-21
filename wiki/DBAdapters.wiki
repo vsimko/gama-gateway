@@ -172,13 +172,13 @@ MySQL database dump given.
 
 *Collections* -^- 5
 
-*Works* -^- 2822 (3095 artworks, 170 events, 216 resources)
+*Works* -^- 3481 (3095 artworks, 170 events, 216 resources)
 
  # *artworks*
   * work_title: always given.
   * <font color="red">work_created: 86 without work_created.</font>
   * creator: always given.
-  * <font color="red">work_type: 2359 without work_type.</font>
+  * <font color="red">work_type: 91 without work_type.</font>
   * <font color="red">work_description: 1428 without description.</font>
  # *events*
   * work_title: always given.
