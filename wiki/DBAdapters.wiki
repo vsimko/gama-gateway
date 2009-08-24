@@ -20,22 +20,20 @@ They underlie a simplified schema and therefore have to be transformed to GAMA s
 
  * Used encoding (by cp): ISO-8859-1
 
-*Artists* -^- 470 (455 Persons, 15 Collectives)
+*Artists* -^- 489 (479 Persons, 10 Collectives)
 
- * *Kind of artist (Person <> Collective)*<br/>Unfortunately the type of artist is not given, so this have to be mapped. <br/>The content partner created an Excel sheet for this reason (but it's uncomplete atm).
- * There are 41 _negative_ values for IDs:<br/>Person: -49, -47, -46, -45, -43, -42, -41, -40, -39, -36, -34, -33, -30, -29, -28, -27, -26, -25, -24, -23, -22, -21, -20, -19, -18, -17, -16, -15, -14, -13, -11, -10, - 9, - 8, - 7, - 6, - 5, - 4, - 3, - 2, - 1.<br/>Collective: -44.<br/>In this cases only person_name is given.<br/>-
+ * There are 41 _negative_ values for IDs:<br/>Person: -49, -47, -46, -45, -43, -42, -41, -40, -39, -36, -34, -33, -30, -29, -28, -27, -26, -25, -24, -23, -22, -21, -20, -19, -18, -17, -16, -15, -14, -13, -11, -10, - 9, - 8, - 7, - 6, - 5, - 4, - 3, - 2, - 1.<br/>Collective: -44.<br/>-
  * person_name: always given.
  * <font color="red">life_span: not provided.</font>
- * <font color="red">person_country : 67 persons have no person_country.</font>
+ * <font color="red">person_country : 69 persons have no person_country.</font>
 
-*Works* -^- 814 (Artworks: 731 , Events: 83) 
+*Works* -^- 749 (Artworks: 669 , Events: 80) 
 
- * There are duplicates, e.g. 5x Event:11993 (everyone has an other image_url)<br/>-
- * work_title: always given.
+ * <font color="red">work_title: 19 without title.<br/>SET TO "UNKNOWN"</font>
  * work_created/presentation_date: always given.
- * <font color="red">creator: 73 works have no creator!</font>
- * <font color="red">work_type: received files do not contain worktypes/genres and keywords.</font>
- * <font color="red">work_description: 671 works have no description.</font>
+ * <font color="red">creator: 28 works have no creator!</font>
+ * <font color="red">work_type: there are strange worktypes like "Event/Sicher im Netz - Symposium"</font>
+ * <font color="red">work_description: 415 works have no description.</font>
 
 == DB-Adapter: Argos vzw Centre for Art and Media ==
 
