@@ -81,15 +81,14 @@ They underlie a simplified schema and therefore have to be transformed to GAMA s
  * <font color="red">life_span: 146 without life_span.</font>
  * <font color="red">person_country: 117 without country.</font>
 
-*Works* -^- 444 (275 artworks, 160 events, 9 resources)
+*Works* -^- 445 (276 artworks, 160 events, 9 resources)
 
  * work_title: always given.
- * <font color="red">work_created/presentation_date: 400 have no creation date.</font> 
- * <font color="red">creator: 13 works without creator etc. (Work:315, Event:427, Work:232, Work:400, Work:290, Work:276, Event:414, Event:72, Event:68, Event:71, Work:14, 
-Event:78, Event:405)</font>
- * <font color="red">work_type: 172 have no worktype.<br/>-> unknown and mismatched worktypes:</font>
-   <font color="red">events with worktype _Documentation_ (worktype of a resource)<br/> events  with worktype _VideoArt_ (worktype of an artwork)<br/>artworks with worktype _Experimental Film_<br/>artworks with worktype _Documentation_ (worktype of a resource)<br/>artwork with worktype _Short feature film_<br/>artwork with worktype _Video Magazine_</font>
- * <font color="red">work_description: 365 have no description. </font>
+ * <font color="red">work_created/presentation_date: 401 have no creation date.</font> 
+ * <font color="red">creator: 13 works without creator etc. (Work:315, Work:427, Resource:268, Resource:285, Work:269, Work:290, Work:276, Event:72, Event:68, Event:71, Work:14, Event:78, Event:405)</font>
+ * <font color="red">work_type: 153 have no worktype.<br/>-> unknown and mismatched worktypes:</font>
+   <font color="red">events with worktype _Documentation_ (worktype of a resource)<br/> events  with worktype _VideoArt_ (worktype of an artwork)<br/>artworks with worktype _Documentation_ (worktype of a resource</font>
+ * <font color="red">work_description: 366 have no description. </font>
 
 == DB-Adapter: Filmform ==
 
