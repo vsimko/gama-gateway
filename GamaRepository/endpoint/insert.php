@@ -7,7 +7,6 @@ require_once 'config-endpoint.php';
 // =============================================================================
 //chdir(dirname(__FILE__));
 ////$_FILES['file']['tmp_name'] = '/home/vlx/workspace-rdf/GamaSchema/gs-worktypes.owl';
-////$_FILES['file']['tmp_name'] = dirname(__FILE__).'/rdf-examples/he_person.rdf';
 ////$_FILES['file']['tmp_name'] = '/dev/shm/gama-sample-data/he_collective.xml';
 //$_FILES['file']['tmp_name'] = '/dev/shm/instants_person.xml';
 //$_REQUEST['what'] = 'data';
