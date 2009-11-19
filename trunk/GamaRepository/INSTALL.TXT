@@ -30,3 +30,9 @@ Add some .htaccess file to the endpoint dir to prevent unauthorised execution of
 - siminsert.php
 
 Install "dot" tool from the graphviz package (required by the visualize.php script)
+
+Make sure that the HTTP server has write access to the following files/dirs:
+
+chmod g+w GamaSync/Update
+chmod g+w GamaSync/Backup
+chmod g+w .config-idx-engine.php
