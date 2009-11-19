@@ -17,6 +17,9 @@ php.ini directives
 # output the results progressively
 output_buffering = Off
 
+=============================================
+Configuration and setup
+=============================================
 copy config.php.dist to config.php and adjust to your needs
 copy endpoint/config-endpoint.php.dist to endpoint/config-endpoint.php and adjust to your needs
 
