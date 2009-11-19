@@ -1,0 +1,39 @@
+<?php
+
+// application dir according to the location of this config file 
+chdir(dirname(__FILE__));
+
+// always include the engine
+require_once '../GamaLib/engine.php';
+
+
+// repository
+Config::set('repo.dbhost', '127.0.0.1');	//CHANGE
+Config::set('repo.dbname', 'gama_db');		//CHANGE
+Config::set('repo.dbuser', 'gama_admin');	//CHANGE
+Config::set('repo.dbpass', 'yourpwd');		//CHANGE
+
+// list of all languages supported by the GAMA frontend
+Config::set('dt.multilangstring.languages', 'en, de, fr, si, sv, nl, hu');	//CHANGE
+
+// debugging
+Config::set('debug.enabled', true);								//CHANGE
+Config::set('debug.output', '/tmp/gama-devel-repo-debug.txt');	//CHANGE
+Config::set('debug.prefix', '');								//CHANGE
+
+Config::set('sparql.querycache', true);							//CHANGE
+Config::set('sparql.logusedsparql', false);						//CHANGE
+
+// absolute paths to gama synchrnosiation
+Config::set('gama.sync.dir', '/var/www/gama/GamaSync');							//CHANGE
+Config::set('gama.blacklist.dir', '/var/www/gama/GamaSync/Update/blacklist');	//CHANGE
+
+// this file should be copied from the GamaSync/Update/indexing/config.php
+// when rebuilding the repository
+Config::set('gama.idxconfig', '.config-idx-engine.php');
+@include_once Config::get('gama.idxconfig');
+
+add_include_path('plugins/sparqlfunc');
+add_include_path('plugins/datatypes');
+add_include_path('plugins/caching');
+?>

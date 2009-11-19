@@ -1,0 +1,29 @@
+=============================================
+PHP5 installation
+=============================================
+
+- php5-soap
+- php5-pdo
+- php5-mysql
+- php5-json
+- php5-xmlreader
+- php5-xmlwriter
+- php5-json
+
+=============================================
+php.ini directives
+=============================================
+
+# output the results progressively
+output_buffering = Off
+
+copy config.php.dist to config.php and adjust to your needs
+copy endpoint/config-endpoint.php.dist to endpoint/config-endpoint.php and adjust to your needs
+
+Add some .htaccess file to the endpoint dir to prevent unauthorised execution of
+- backup.php
+- cleanup.php
+- insert.php
+- siminsert.php
+
+Install "dot" tool from the graphviz package (required by the visualize.php script)
