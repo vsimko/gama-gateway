@@ -1,0 +1,9 @@
+# GAMA: List of all archives
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+
+SELECT * WHERE {
+  GRAPH ?graph {
+    ?archive rdf:type gama:Archive; gama:archive_name ?name.
+  }
+} order by ?name limit 1000

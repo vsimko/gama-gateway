@@ -1,0 +1,18 @@
+# SPARQL "Simple Load" Extension
+
+SIMPLE LOAD
+
+	gama:ciant:test:Person:Ivor
+	gama:ciant:test:Person:PavelSedlak
+	gama:ciant:test:Person:PavelSmetana
+
+PROPERTIES
+
+    gama:person_name
+    gama:person_image
+    gama:life_span
+    gama:biography
+    gama:member_of
+    
+# The result will contain triples from the cartesian product
+# of (Resources x Properties)

@@ -1,0 +1,17 @@
+# Schema Properties
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT * WHERE {
+  ?property rdf:type ?type.
+  FILTER (
+    ?type = owl:ObjectProperty ||
+    ?type = owl:DatatypeProperty ||
+    ?type = owl:InverseFunctionalProperty ||
+    ?type = owl:SymmetricProperty ||
+    ?type = owl:TransitiveProperty ||
+    ?type = gama:EquivalenceProperty ||
+    ?type = rdf:Property
+  )    
+}

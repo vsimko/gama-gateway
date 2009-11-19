@@ -1,0 +1,6 @@
+# STATS: Number of resources by rdf:type
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT ?rdftype count(?resource) as ?count
+WHERE { ?resource a ?rdftype }
+GROUP BY ?rdftype
