@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://gama-gateway.eu/schema/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <frame>
+    <main_manif rdf:resource="http://test/manifestation-1"/>
+    <shotid>1</shotid>
+    <similar_manif rdf:resource="http://test/manifestation-2"/>
+    <weight>90</weight>
+    <best_match>8</best_match>
+  </frame>
+
+  <frame>
+    <main_manif rdf:resource="http://test/manifestation-1"/>
+    <shotid>1</shotid>
+    <similar_manif rdf:resource="http://test/manifestation-3"/>
+    <weight>70</weight>
+  </frame>
+  
+  <frame>
+    <main_manif rdf:resource="http://test/manifestation-1"/>
+    <shotid>2</shotid>
+    <similar_manif rdf:resource="http://test/manifestation-2"/>
+    <weight>40</weight>
+    <best_match>12</best_match>
+  </frame>
+
+  <frame>
+    <main_manif rdf:resource="http://test/manifestation-1"/>
+    <shotid>2</shotid>
+    <similar_manif rdf:resource="http://test/manifestation-3"/>
+    <weight>80</weight>
+    <best_match>9</best_match>
+  </frame>
+
+</rdf:RDF>
