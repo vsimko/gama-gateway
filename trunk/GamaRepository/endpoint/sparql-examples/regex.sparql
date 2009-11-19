@@ -1,0 +1,11 @@
+# Regular expressions
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+
+SELECT * WHERE {
+
+	_:w gama:work_title ?title;
+	FILTER regex(?title, "^a.*", "i") # titles starting with "a" (case-insensitive)
+	
+}	order by ?title
+	limit 10 offset 0

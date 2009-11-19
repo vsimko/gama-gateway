@@ -1,0 +1,14 @@
+# GAMA: Work and Person
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+
+SELECT * WHERE {
+
+_:w gama:work_title ?title;
+    gama:has_creator _:p;
+    gama:work_created ?created.
+
+_:p gama:person_name ?name
+
+} order by ?title desc(?name)
+limit 10 offset 0

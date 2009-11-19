@@ -1,0 +1,19 @@
+# OPTIONAL: Creators ordered by title with the "Love" keyword in the description
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT
+  ?workuri
+  ?personuri
+WHERE {
+  ?workuri a gama:Work.
+
+  ?workuri gama:work_description ?descr.
+  FILTER gama:match("Love", ?descr).
+  
+  OPTIONAL
+  {
+    ?workuri gama:has_creator ?personuri.
+    ?workuri gama:work_title ?title.
+  }
+} ORDER BY DESC(?title)
+LIMIT 100

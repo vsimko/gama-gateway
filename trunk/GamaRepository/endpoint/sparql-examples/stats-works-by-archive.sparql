@@ -1,0 +1,9 @@
+# STATS: Number of Works from an Archive
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT ?archive_uri count(?work_uri) as ?numworks
+WHERE {
+  ?archive_uri a gama:Archive.
+  ?work_uri gama:provided_by ?archive_uri.
+}
+GROUP BY ?archive_uri

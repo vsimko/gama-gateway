@@ -1,0 +1,17 @@
+# Language filter with fallback to the default language
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT * WHERE {
+  ?work rdf:type gama:Work;
+        gama:work_title ?work_title.
+
+  FILTER gama:lang(?work_title, "de")
+
+  # gama:lang is a syntactic sugar for SPARQL built-in functions defined in the standars.
+  # The equivalent code would be:
+  # FILTER ( lang(?work_title)="de" || lang(?work_title)="")
+  # and also
+  # FILTER ( langMatches( lang(?work_title), "de") || langMatches(lang(?work_title), "") )
+  
+  # our langMatches also supports following syntax langMatches(?x, "*") which is equivalent simply to ?x
+
+} limit 100

@@ -1,0 +1,19 @@
+# Works which have main manifestations with previews
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+PREFIX cache: <http://gama-gateway.eu/cache/>
+SELECT DISTINCT ?workuri WHERE {
+
+ ?workuri cache:fulltext_works ?cache
+
+ FILTER (?title = gama:dbAlias(?cache, "wtitle"))
+ FILTER (?description = gama:dbAlias(?cache, "wdescr"))
+ FILTER (?name  = gama:dbAlias(?cache, "creator"))
+
+ FILTER ( "1" = gama:dbAlias(?cache, "has_preview"))
+ FILTER (?sorting_sequence = gama:dbAlias(?cache, "sort_creator"))
+
+ FILTER gama:match("vasulka", ?title, ?description, ?name)
+}
+ORDER BY asc(?sorting_sequence)
+LIMIT 20

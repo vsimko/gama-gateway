@@ -1,0 +1,10 @@
+# STATS: Number of Manifestations per Work
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT ?work_uri count(?manif_uri) as ?manif_count
+WHERE {
+  ?work_uri gama:has_manifestation ?manif_uri.
+}
+GROUP BY ?work_uri
+ORDER BY DESC(?manif_count)
+limit 100

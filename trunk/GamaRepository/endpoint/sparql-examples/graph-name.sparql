@@ -1,0 +1,17 @@
+# NAMED GRAPHS: How to obtain the graph name of statements
+
+# Every statement inserted into the repository is
+# associated with some "graph name" which is the base URI provided inside
+# the RDF/XML file as xml:base attribute of the root rdf:RDF element.
+# Therefore all statements are divided into disjoint groups according to
+# the graph name.
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT * {
+  GRAPH ?graph_name {
+    ?person_uri gama:person_name ?name
+  }
+}
+ORDER BY ?graph_name
+LIMIT 100
+  

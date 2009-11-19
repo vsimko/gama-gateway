@@ -1,0 +1,22 @@
+# Similar media: number of shots per work (split by manifestation)
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT
+  ?work_uri
+  ?manif_uri
+  count(?shotid) as ?count
+
+WHERE {
+
+  ?manif_uri a gama:Manifestation.
+  FILTER gama:similar_shots( ?manif_uri, ?shotid)
+
+  ?work_uri a gama:Work.
+  ?work_uri gama:has_manifestation ?manif_uri.
+  
+  # uncomment this if you want to restrict the query to a known work URI
+  # FILTER (?work_uri = <WORK_URI_COMES_HERE> )
+}
+GROUP BY ?work_uri, ?manif_uri
+ORDER BY DESC(?count)
+LIMIT 100

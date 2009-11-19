@@ -1,0 +1,20 @@
+# Similar media: number of similarities per work
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT
+  ?work_uri
+  count(?shotid) as ?count
+WHERE {
+  ?manif_uri a gama:Manifestation.
+  ?similar_manif a gama:Manifestation.
+ 
+  ?work_uri rdf:type gama:Work;
+            gama:has_manifestation ?manif_uri.
+ 
+  FILTER gama:similar_media( ?manif_uri, ?shotid, ?similar_manif).
+
+  # uncomment this if you want to restrict the query to a known work URI
+  # FILTER (?work_uri = <WORK_URI_COMES_HERE> ).
+}
+GROUP BY ?work_uri
+ORDER BY DESC(?count)

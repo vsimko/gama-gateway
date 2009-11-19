@@ -1,0 +1,18 @@
+# Similar media: number of distinct shots per manifestation
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT
+  ?manif_uri
+  COUNT(?shotid) AS ?count
+WHERE {
+
+  ?manif_uri a gama:Manifestation.
+  FILTER gama:similar_shots( ?manif_uri, ?shotid)
+  
+  # uncomment this if you want to restrict the query to a known manifestation URI
+  # FILTER (?manif_uri = <MANIFESTATION_URI_COMES_HERE> )
+
+}
+GROUP BY ?manif_uri
+ORDER BY DESC(?count)
+LIMIT 100

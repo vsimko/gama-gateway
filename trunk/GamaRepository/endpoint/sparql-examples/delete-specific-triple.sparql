@@ -1,0 +1,9 @@
+# DELETE: How to delete a specific triple
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+DELETE FROM <http://testing>
+{
+  <http://test/manifestation-1> gama:idx_process "1".
+  <http://test/manifestation-1> gama:idx_process "2".
+  <http://test/manifestation-1> gama:idx_process "3".
+}

@@ -1,0 +1,7 @@
+# Soundex function example
+PREFIX gama: <http://gama-gateway.eu/schema/>
+PREFIX mysql: <http://www.mysql.com/>
+SELECT * WHERE {
+  ?x a gama:Work; gama:work_title ?t
+  FILTER (mysql:soundex(?t) = mysql:soundex("faul"))
+} limit 10

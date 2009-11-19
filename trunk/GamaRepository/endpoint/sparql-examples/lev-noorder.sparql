@@ -1,0 +1,8 @@
+# Levenshtein without implicit ordering (faster)
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT * WHERE {
+  ?work  rdf:type gama:Work;
+         gama:work_title ?work_title.
+ 
+  FILTER (gama:levenshtein(?work_title, "manfred") <= 4)
+} limit 10

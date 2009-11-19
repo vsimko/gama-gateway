@@ -1,0 +1,15 @@
+# Similar media: how to obtain a list of similararities
+
+PREFIX gama: <http://gama-gateway.eu/schema/>
+SELECT * WHERE {
+
+  FILTER gama:similar_media( ?manif_uri, ?shotid, ?similar_manif, ?weight, ?bestmatch )
+  
+  # Uncomment this if you want to filer according to the known manifestation URI
+  FILTER (?manif_uri = <gama:instants:main:Manifestation:191>)
+  
+  # Uncomment this if you want to filter according to the known work URI
+  # ?work_uri a gama:Work; gama:has_manifestation ?manif_uri.
+  # FILTER (?work_uri = <WORK_URI_COMES_HERE>)
+
+} LIMIT 100
