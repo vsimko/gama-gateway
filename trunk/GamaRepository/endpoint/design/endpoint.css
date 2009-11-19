@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+body {
+	background-image: url("bgimage.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-color: #ffffff;
+	margin: 60px;
+}
+h1, h2, h3 {
+	text-shadow: #aaaaaa 2px 2px 4px;
+	text-transform: capitalize;
+}
+th, td {
+	font-size: x-small;
+	vertical-align: top;
+	border-bottom: solid 1px silver;
+	border-right: solid 1px silver;
+	text-align: left;
+	padding: 10px
+}
+th {
+	text-align: right;
+	background-color: #f8f8f8;
+}
+
+.intro {
+	margin-left: 20px;
+	width: 50%;
+	text-align: justify;
+}
+
+.datecell {
+	white-space: nowrap;
+	font-size: x-small;
+}
+
+.literalcell {
+	white-space: normal;
+	text-align: justify;
+}
+
+.uricell {
+	white-space: nowrap;
+}
+
+.note {
+	font-size: xx-small;
+}
+
+.lang {
+	color: silver;
+	font-size: xx-small;
+	position: relative;
+	left: -6px;
+	top: -6px;
+}
+
+.code {
+	font-family: monospace;
+	font-size: xx-small;
+	color: gray;
+	max-width: 800px;
+}
+
+.preformat { white-space: pre }
+
+#fixedmenu
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: gray;
+	padding:5px;
+}
+#fixedmenu, #fixedmenu a
+{
+	text-decoration: none;
+	font-size: x-small;
+	color: white;
+	font-weight: bold;
+}
