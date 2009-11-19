@@ -1,0 +1,17 @@
+BrowserMatchNoCase ^$ anonymous_spider
+
+# Now set default access rights.
+Order Allow,Deny
+Allow from all
+Deny from env=anonymous_spider
+
+# Authentication type (htpasswd file)
+AuthUserFile /var/www/gama/GamaRepository/endpoint/.htpasswd
+AuthName 'Enter your username:'
+AuthType Basic
+
+
+<FilesMatch "(cleanup|backup|insert|siminsert).*">
+	Require user admin
+#   Require valid-user
+</FilesMatch>
