@@ -1,5 +1,5 @@
 =============================================
-PHP5 installation
+PHP5 installation ( recommended version : 5.2.0+ )
 =============================================
 
 - php5-soap
