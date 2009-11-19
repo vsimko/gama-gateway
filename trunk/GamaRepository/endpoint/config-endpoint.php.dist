@@ -1,0 +1,53 @@
+<?php
+
+// Location of the main configuration file
+// This should be the path (even realtive) to the GamaRepository directory
+require_once '../config.php';
+
+// Absolute path to the directory which will contain database backups
+Config::set('backup.dir', '/absolute/path/to/your/backup/dir');
+Config::set('backup.prefix', 'backup_');
+Config::set('backup.suffix', date('_\DYmd\THis'));
+
+// the sparql examples are located here
+Config::set('endpoint.sparql.examples', dirname(__FILE__).'/sparql-examples/*.sparql');
+
+// timeout for performing the SQL query in the mysql database (in seconds)
+Config::set('query.sql.timeout', 3);
+
+// timeout for the whole query HTTP request (in seconds)
+Config::set('query.request.timeout', 30);
+
+Config::set('endpoint.nohttps', true);
+
+/**
+ * This will render a valid XHTML 1.0 Strict page with an error message.
+ * Uses the page header and footer same as the other web pages.
+ * @param string|Exception $msg
+ */
+function render_error_page($msg)
+{
+	include 'design/page-header.php';
+	
+	echo '<div class="preformat">';
+	if(is_string($msg))
+	{
+//		$encodedMsg = preg_replace('/$/m', '<br/>', htmlspecialchars($msg) );
+//		echo "<div>$encodedMsg</div>\n";
+		echo $msg;
+	} elseif($msg instanceof Exception)
+	{
+//		$encodedMsg = preg_replace('/$/m', '<br/>', htmlspecialchars($msg->getMessage()) );
+//		echo "<div>$encodedMsg</div>\n";
+		
+//		$encodedTrace = preg_replace('/$/m', '<br/>', htmlspecialchars($msg->getTraceAsString()) );
+//		echo "<div class='code'><b>Debug trace follows:</b><br/>$encodedTrace</div>\n";
+
+		echo $msg->getMessage();
+	}
+	echo '</div>';
+	include 'design/page-footer.php';
+	exit;
+	
+}
+?>
