@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://gama-gateway.eu/schema/Language/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:gama="http://gama-gateway.eu/schema/" xmlns="http://gama-gateway.eu/schema/Language/">
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/aa">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Afar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ab">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Abkhazian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ae">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Avestan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/af">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Afrikaans</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ak">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Akan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/am">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Amharic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/an">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Aragonese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ar">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Arabic</rdfs:label>
+    <rdfs:label xml:lang="de">Arabisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/as">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Assamese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/av">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Avaric</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ay">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Aymara</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/az">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Azerbaijani</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ba">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Bashkir</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/be">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Belarusian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/bg">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Bulgarian</rdfs:label>
+    <rdfs:label xml:lang="de">Bulgarisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Bulgare</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/bh">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Bihari</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/bi">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Bislama</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/bm">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Bambara</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/bn">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Bengali</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/bo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tibetan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/br">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Breton</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/bs">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Bosnian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ca">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Catalan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ce">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Chechen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ch">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Chamorro</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/co">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Corsican</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/cr">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Cree</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/cs">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Czech</rdfs:label>
+    <rdfs:label xml:lang="de">Tschechisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Tchèque</rdfs:label>
+    <rdfs:label xml:lang="cs">Čeština</rdfs:label>
+    <rdfs:label xml:lang="sk">Čeština</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/cu">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Church Slavic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/cv">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Chuvash</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/cy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Welsh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/da">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Danish</rdfs:label>
+    <rdfs:label xml:lang="de">Dänisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Danois</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/de">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">German</rdfs:label>
+    <rdfs:label xml:lang="de">Deutsch</rdfs:label>
+    <rdfs:label xml:lang="fr">Allemand</rdfs:label>
+    <rdfs:label xml:lang="cs">Němčina</rdfs:label>
+    <rdfs:label xml:lang="sk">Nemčina</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/dv">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Divehi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/dz">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Dzongkha</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ee">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Ewe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/el">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Greek</rdfs:label>
+    <rdfs:label xml:lang="de">Griechisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Grec</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/en">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">English</rdfs:label>
+    <rdfs:label xml:lang="de">Englisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Anglais</rdfs:label>
+    <rdfs:label xml:lang="cs">Angličtina</rdfs:label>
+    <rdfs:label xml:lang="sk">Angličtina</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/eo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Esperanto</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/es">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Spanish</rdfs:label>
+    <rdfs:label xml:lang="de">Spanisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Espagnol</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/et">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Estonian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/eu">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Basque</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/fa">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Persian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ff">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Fulah</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/fi">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Finnish</rdfs:label>
+    <rdfs:label xml:lang="de">Finnisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/fj">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Fijian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/fo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Faroese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/fr">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">French</rdfs:label>
+    <rdfs:label xml:lang="de">Französisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Français</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/fy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Western Frisian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ga">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Irish</rdfs:label>
+    <rdfs:label xml:lang="de">Irisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/gd">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Scottish Gaelic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/gl">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Galician</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/gn">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Guaraní</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/gu">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Gujarati</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/gv">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Manx</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ha">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Hausa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/he">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Hebrew</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/hi">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Hindi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ho">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Hiri Motu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/hr">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Croatian</rdfs:label>
+    <rdfs:label xml:lang="de">Kroatisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ht">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Haitian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/hu">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Hungarian</rdfs:label>
+    <rdfs:label xml:lang="de">Ungarisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/hy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Armenian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/hz">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Herero</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/id">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Indonesian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ie">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Interlingue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ig">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Igbo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ii">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Sichuan Yi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ik">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Inupiaq</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/io">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Ido</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/is">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Icelandic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/it">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Italian</rdfs:label>
+    <rdfs:label xml:lang="de">Italienisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/iu">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Inuktitut</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ja">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Japanese</rdfs:label>
+    <rdfs:label xml:lang="de">Japanisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/jv">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Javanese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ka">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Georgian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/kg">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kongo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ki">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kikuyu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/kj">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kwanyama</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/kk">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kazakh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/kl">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kalaallisut</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/km">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Khmer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/kn">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kannada</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ko">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Korean</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/kr">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kanuri</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ks">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kashmiri</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ku">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kurdish</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/kv">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Komi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/kw">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Cornish</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ky">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kirghiz</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/la">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Latin</rdfs:label>
+    <rdfs:label xml:lang="de">Lateinisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/lb">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Luxembourgish</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/lg">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Ganda</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/li">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Limburgish</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ln">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Lingala</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/lo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Lao</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/lt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Lithuanian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/lu">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Luba-Katanga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/lv">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Latvian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/mg">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Malagasy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/mh">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Marshallese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/mi">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Māori</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/mk">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Macedonian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ml">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Malayalam</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/mn">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Mongolian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/mr">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Marathi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ms">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Malay</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/mt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Maltese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/my">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Burmese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/na">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Nauru</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/nb">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Norwegian Bokmål</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/nd">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">North Ndebele</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ne">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Nepali</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ng">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Ndonga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/nl">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Dutch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/nn">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Norwegian Nynorsk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/no">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Norwegian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/nr">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">South Ndebele</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/nv">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Navajo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ny">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Chichewa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/oc">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Occitan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/oj">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Ojibwa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/om">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Oromo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/or">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Oriya</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/os">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Ossetian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/pa">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Panjabi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/pi">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Pāli</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/pl">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Polish</rdfs:label>
+    <rdfs:label xml:lang="de">Polnisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Polonais</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ps">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Pashto</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/pt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Portuguese</rdfs:label>
+    <rdfs:label xml:lang="de">Portugiesisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Portugais</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/qu">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Quechua</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/rm">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Raeto-Romance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/rn">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kirundi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ro">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Romanian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ru">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Russian</rdfs:label>
+    <rdfs:label xml:lang="de">Russisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/rw">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Kinyarwanda</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sa">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Sanskrit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sc">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Sardinian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sd">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Sindhi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/se">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Northern Sami</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sg">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Sango</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sh">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Serbo-Croatian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/si">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Sinhala</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sk">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Slovak</rdfs:label>
+    <rdfs:label xml:lang="de">Slowakisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Slovaque</rdfs:label>
+    <rdfs:label xml:lang="cs">Slovenština</rdfs:label>
+    <rdfs:label xml:lang="sk">Slovenčina</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sl">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Slovenian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sm">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Samoan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sn">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Shona</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/so">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Somali</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sq">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Albanian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sr">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Serbian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ss">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Swati</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/st">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Southern Sotho</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/su">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Sundanese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sv">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Swedish</rdfs:label>
+    <rdfs:label xml:lang="de">Schwedisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/sw">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Swahili</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ta">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tamil</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/te">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Telugu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/tg">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tajik</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/th">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Thai</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ti">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tigrinya</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/tk">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Turkmen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/tl">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tagalog</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/tn">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tswana</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/to">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tonga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/tr">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Turkish</rdfs:label>
+    <rdfs:label xml:lang="de">Türkisch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ts">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tsonga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/tt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tatar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/tw">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Twi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ty">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Tahitian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ug">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Uighur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/uk">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Ukrainian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ur">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Urdu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/uz">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Uzbek</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/ve">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Venda</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/vi">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Vietnamese</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/vo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Volapük</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/wa">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Walloon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/wo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Wolof</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/xh">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Xhosa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/yi">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Yiddish</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/yo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Yoruba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/za">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Zhuang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/zh">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Chinese</rdfs:label>
+    <rdfs:label xml:lang="de">Chinesisch</rdfs:label>
+    <rdfs:label xml:lang="fr">Chinois</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Language/zu">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:label xml:lang="en">Zulu</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
