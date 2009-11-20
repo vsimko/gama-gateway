@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://gama-gateway.eu/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://gama-gateway.eu/">
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This ontology combines all parts of the GAMA Metadata Schema</owl:versionInfo>
+
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/schema-base.owl"/>
+
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-biography.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-fulltext_works.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-person_birth_year.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-person_name.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-person_url.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-transitive_member_of.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-work_created_year.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-work_creator.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-work_description.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-work_has_fullstream.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-work_has_preview.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-work_sorting.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/cache-work_title.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/ciant-example.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/dt-gama-binary.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/dt-gama-dateInterval.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/dt-gama-dateTimeInterval.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/dt-gama-keywordType.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/dt-gama-labelType.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/dt-gama-multiColumn.owl"/>
+    <owl:imports rdf:resource="file:/media/data/Apps/eclipse-3.4-rdf/WORKSPACE/GamaSchema/dt-gama-noLangLabel.owl"/>
+  </owl:Ontology>
+</rdf:RDF>
+
+<!-- Created with TopBraid Composer -->
