@@ -9,8 +9,11 @@
   xml:base="http://gama-gateway.eu/cache/">
 
   <rdfs:Datatype rdf:about="http://gama-gateway.eu/schema/noLangLabel">
-    <rdfs:comment>TODO: labelType without language</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment>
+    	Same as the gama:labelType datatype without the 
+    	language support (there is no lang column in the property table).
+    </rdfs:comment>
   </rdfs:Datatype>
 
 </rdf:RDF>

@@ -9,8 +9,11 @@
   xml:base="http://gama-gateway.eu/cache/">
 
   <rdfs:Datatype rdf:about="http://gama-gateway.eu/schema/multiColumn">
-    <rdfs:comment>This is a special datatype that may contain multiple columns depending on the caching mechanism</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment>
+    	This is a special datatype that may contain multiple
+    	columns depending on the caching mechanism.
+    </rdfs:comment>
   </rdfs:Datatype>
 
 </rdf:RDF>
