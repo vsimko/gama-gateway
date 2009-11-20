@@ -6,11 +6,16 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xml:base="http://gama-gateway.eu/cache/">
+	xml:base="http://gama-gateway.eu/cache/">
 
-  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/cache/person_birth_year">
-    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-  </owl:DatatypeProperty>
+	<owl:DatatypeProperty rdf:about="http://gama-gateway.eu/cache/person_birth_year">
+		<rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+		<rdfs:comment>
+			Implemented in Build_Cache_Person_Birth_Year.
+			Year from the beggining of the gama:life_span interval - single
+			harmonised instance for every person.
+		</rdfs:comment>
+	</owl:DatatypeProperty>
 
 </rdf:RDF>

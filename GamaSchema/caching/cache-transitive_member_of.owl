@@ -6,12 +6,12 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xml:base="http://gama-gateway.eu/cache/">
+	xml:base="http://gama-gateway.eu/cache/">
 
-  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/cache/transitive_member_of">
-    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
-    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
-    <rdfs:comment>Precomputed transitivity based on gama:member_of property</rdfs:comment>
-  </owl:ObjectProperty>
+	<owl:ObjectProperty rdf:about="http://gama-gateway.eu/cache/transitive_member_of">
+		<rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+		<rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+		<rdfs:comment>Precomputed transitivity based on gama:member_of property</rdfs:comment>
+	</owl:ObjectProperty>
 
 </rdf:RDF>
