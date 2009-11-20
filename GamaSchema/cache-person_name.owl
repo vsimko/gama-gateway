@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:gama="http://gama-gateway.eu/schema/"
+    xmlns:cache="http://gama-gateway.eu/cache/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://gama-gateway.eu/cache/">
+
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/cache/person_name">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/noLangLabel"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:comment>Provides harmonised person names.
+It satisfies the following conditions:
+
+- for every person in the repository, there is always a single instance of the name
+- person name comming from the harmonisation tool overrides all other names
+- the name is assigned correctly also to persons marked as equivalent in the
+harmonisation tool
+- no languages are defined in this property, therefore the name is identical for all
+languages
+- if a name is missing in the source database, an empty string is used instead
+- sorting values are also handled properly (similar to the gama:person_name)
+
+Example: Obtain a list of harmonised person names of someone called "Woody"
+
+PREFIX gama: &lt;http://gama-gateway.eu/schema/&gt;
+PREFIX cache: &lt;http://gama-gateway.eu/cache/&gt;
+select * {
+ ?person cache:person_name ?name.
+ FILTER gama:match("Woody", ?name)
+}</rdfs:comment>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

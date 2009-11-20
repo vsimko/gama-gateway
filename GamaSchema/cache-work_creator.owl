@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:gama="http://gama-gateway.eu/schema/"
+    xmlns:cache="http://gama-gateway.eu/cache/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://gama-gateway.eu/cache/">
+
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/cache/work_creator">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:comment>
+  This is a harmonised list of work creators. It ensures that there are no duplicates if some persons are equivalent.
+  </rdfs:comment>
+  </owl:ObjectProperty>
+
+</rdf:RDF>

@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://gama-gateway.eu/schema/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://gama-gateway.eu/schema/">
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo>GAMA Metadata Scheme only supports a subset of OWL Lite and can be characterised as follows:
+&lt;ul&gt;
+&lt;li&gt;no inheritance is supported for classes nor for properties&lt;/li&gt;
+&lt;li&gt;regular entities such as Person are subclasses of Entity&lt;/li&gt;
+&lt;li&gt;classes used as enumerations are subclasses of Enumeration&lt;/li&gt;
+&lt;li&gt;model contains definition of classes and properties + some instances of enumerations&lt;/li&gt;
+&lt;li&gt;exactly one domain and one range must be defined for a property&lt;/li&gt;
+&lt;li&gt;owl:DatatypeProperty is supported&lt;/li&gt;
+&lt;li&gt;owl:SymmetricProperty is supported (inferencing)&lt;/li&gt;
+&lt;li&gt;properties marked as owl:SymmetricProperty + owl:TransitiveProperty express "equivalence" (inferencing)&lt;/li&gt;
+&lt;li&gt;supported datatypes: xsd:anyURI, xsd:string, xsd:date, xsd:time, xsd:integer, xsd:boolean
+&lt;li&gt;roles such as "author" or "curator" can be expressed by special "intersection" class or by multiple properties. In order to achieve better efficiency, we suggest to use multiple properties such as work.has_author.Person instead of: Work.related_role.Role.in_the_role.Person + Role.role_type.RoleType.&lt;/li&gt;
+&lt;li&gt;owl:InverseFunctionalProperty and owl:FunctionalProperty are not fully implemented but can be used.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr/&gt;&lt;div&gt;Schema defined in the OWL file:&lt;/div&gt;
+&lt;a href="gama-schema-overview.png"&gt;&lt;img src='gama-schema-overview.png' style="width:650;margin:30px" alt="GAMA Metadata Schema Overview"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+
+&lt;hr/&gt;&lt;div&gt;Schema generated directly from the current repository:&lt;/div&gt;
+&lt;a href="http://research.ciant.cz/gama/GamaRepository/endpoint/visualize.php"&gt;&lt;img src='http://research.ciant.cz/gama/GamaRepository/endpoint/visualize.php' style="width:650" alt="GAMA Metadata Schema Overview"/&gt;&lt;/a&gt;
+&lt;br/&gt;</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Work">
+    <rdfs:comment>The core element of the GAMA Metadata Schema is the Work class. Works represent abstract notion of artworks, events or other resources which may exist in various physical manifestations.
+(see Manifestation class)</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://gama-gateway.eu/schema/Entity"/>
+    </rdfs:subClassOf>
+    <rdfs:label>Work</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Term">
+    <rdfs:comment>Since GAMA intends to provide access to several databases that use diverse terminology, having a unified thesaurus is crucial. The Term class in GAMA Metadata Schema, however, does not provide full-featured thesaurus. It is merely a list of keywords or terms.</rdfs:comment>
+    <rdfs:label>Term</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://gama-gateway.eu/schema/Enumeration"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/WorkType">
+    <rdfs:comment>Divides works into categories using a hierarchy of work types</rdfs:comment>
+    <rdfs:label>Type of work</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://gama-gateway.eu/schema/Enumeration"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Entity">
+    <rdfs:comment>Superclass for all real classes of GAMA Metadata Schema. No further inheritance is supported. Our repository only support flat structure of classes and properties.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Person">
+    <rdfs:label>Person</rdfs:label>
+    <rdfs:comment>Represents persons, institutions or collectives depending on their membership. Collectives are members of itself.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://gama-gateway.eu/schema/Entity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Archive">
+    <rdfs:label>Archive</rdfs:label>
+    <rdfs:comment>Archive represents content provier's database. Actual metadata will be transferred from archives to central GAMA repository.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://gama-gateway.eu/schema/Entity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Collection">
+    <rdfs:label>Collection of works</rdfs:label>
+    <rdfs:comment>Collection class provides mechanism for grouping Works.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://gama-gateway.eu/schema/Entity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Language">
+    <rdfs:comment>List of languages as defined by ISO 639-1
+http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes</rdfs:comment>
+    <rdfs:label>Language</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://gama-gateway.eu/schema/Enumeration"/>
+    </rdfs:subClassOf>
+    <owl:versionInfo>TODO: Should languages also comprise accents?</owl:versionInfo>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/MediaType">
+    <rdfs:comment>Manifestations may be stored on different media types.</rdfs:comment>
+    <rdfs:label>Type of media</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://gama-gateway.eu/schema/Enumeration"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Manifestation">
+    <rdfs:subClassOf rdf:resource="http://gama-gateway.eu/schema/Entity"/>
+    <rdfs:comment>Physical representation of work (artwork, event or other resource). This includes files of any kind, physical objects such as DVD or CD media. Actual usage of properties depends on particular MediaType.</rdfs:comment>
+    <rdfs:label>Manifestation of work</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Enumeration">
+    <rdfs:comment>Superclass of all classes which act in GAMA as enumerations. An enumeration is a class which has fixed set of predefined instances. Dissimilar values from content providers' archives will be mapped to this common enumerations in order to express equivalent information.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://gama-gateway.eu/schema/Country">
+    <rdfs:comment>List of countries as defined by ISO 3166-1 Alpha2
+http://www.iso.org/iso/country_codes/iso_3166_code_lists</rdfs:comment>
+    <rdfs:label>Country</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://gama-gateway.eu/schema/Enumeration"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/has_lecturer"/>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/contains_work"/>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/provided_by">
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:about="http://gama-gateway.eu/schema/provides_work"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Archive"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/has_producer"/>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/is_lecturer">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <owl:inverseOf rdf:resource="http://gama-gateway.eu/schema/has_lecturer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/related_person">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:comment>This is just an example of reification</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/is_contributor"/>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/has_contributor">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <owl:inverseOf rdf:resource="http://gama-gateway.eu/schema/is_contributor"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/is_publisher">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/has_publisher"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/work_language">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Language"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/manif_language">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Language"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/owned_by">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Archive"/>
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:about="http://gama-gateway.eu/schema/is_owner"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/person_country">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Country"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/work_type">
+    <rdfs:comment>Connects the Work instance with an appropriate WorkType</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/work_term">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Term"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/work_country">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Country"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/is_organiser"/>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/organised_by">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <owl:inverseOf rdf:resource="http://gama-gateway.eu/schema/is_organiser"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/is_creator"/>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/has_curator">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/is_curator"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/manifestation_of">
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:about="http://gama-gateway.eu/schema/has_manifestation"/>
+    </owl:inverseOf>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Work"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/media_type">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/MediaType"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/part_of_collection">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Collection"/>
+    <owl:inverseOf rdf:resource="http://gama-gateway.eu/schema/contains_work"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/has_creator">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <owl:inverseOf rdf:resource="http://gama-gateway.eu/schema/is_creator"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/is_producer">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <owl:inverseOf rdf:resource="http://gama-gateway.eu/schema/has_producer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gama-gateway.eu/schema/has_member"/>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/person_image">
+    <rdfs:label>Thumbnail image</rdfs:label>
+    <rdfs:comment>URI to the image representing photo of a person or logo of an institution.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/term_value">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/collection_description">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment>Textual description of the collection</rdfs:comment>
+    <rdfs:label>Collection description</rdfs:label>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Collection"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/work_country_text">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_description">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/person_country_text">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/idx_epileptic_risk">
+    <rdfs:comment>Seizure detection in video files: detection of (epileptic) seizure causing content is needed to comply to web safety standards. The goal is that in the user interface content that puts epileptic viewers at risk is flagged as such.
+&lt;p/&gt;Also see:
+&lt;a href="http://code.google.com/p/gama-gateway/issues/detail?id=33"&gt;Issue 33&lt;/a&gt; and
+&lt;a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html"&gt;W3C on seizures&lt;/a&gt;</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/idx_ocr_avail">
+    <rdfs:comment>Also see http://code.google.com/p/gama-gateway/issues/detail?id=23</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/dba_url">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Archive"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/archive_name">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/labelType"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Archive"/>
+    <rdfs:label>Archive Name</rdfs:label>
+    <rdfs:comment>At least one name should be defined for every archive.
+Can also be translated to different languages.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/idx_main">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:comment>Portal will select main manif,  which has flag idx_main=TRUE. 
+In this schema it is guaranteed that that a work will have a manifestation
+with flag idx_main=TRUE
+&lt;a href="http://code.google.com/p/gama-gateway/issues/detail?id=23"&gt;Also see&lt;/a&gt;</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/work_right">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>Work rights</rdfs:label>
+    <rdfs:comment>Textual description of various rights such as copyright, distributon or documentation right</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_with_sound">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/presentation_date">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/dateInterval"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_url">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_highlighted">
+    <rdfs:comment>Should the manifestation be highlighted in the frontend</rdfs:comment>
+    <rdfs:label>Highlighted Manifestation</rdfs:label>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/person_name">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/labelType"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:comment>Name of the person composed of firstname, surname and other possible names in arbitrary order depending on particular archive. We suggest to follow this pattern: [surname, middlename, firstname]
+This property uses fulltext + btree indexes.</rdfs:comment>
+    <rdfs:label>Name</rdfs:label>
+    <rdfs:comment>At least one person_name should be available for every Person instance.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/work_url">
+    <rdfs:comment>Represents the URL where more information about the particular work can be found. It should be possible to use the URL directly in a web-browser.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_format">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:comment>Free text describing technical data of the object. Could be filled from the output of ffmpeg.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_place">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_drmid">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:comment>Reference to the DRM framework.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/work_image">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:label>Image URL</rdfs:label>
+    <rdfs:comment>URL of an image representation of the work (thumbnail)</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/idx_keyword">
+    <rdfs:comment>Keywords produced by the ASR (Automatic Speech Recognition) and OCR (Optical Character Recognition) component for a given manifestation.</rdfs:comment>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/keywordType"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/idx_qbe_avail">
+    <rdfs:comment>Also see http://code.google.com/p/gama-gateway/issues/detail?id=23</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_with_colour">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/work_created">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:label>Interval of creation</rdfs:label>
+    <rdfs:comment>When the work has been created. This could also be expressed as time interval eg:
+2007-01-01 .. 2008-10-23</rdfs:comment>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/dateInterval"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/archive_homepage">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Archive"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:comment>Contains a URL pointing to the homepage of an archive</rdfs:comment>
+    <rdfs:label>Archive Homepage</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/idx_stream_avail">
+    <rdfs:comment>This flag indicated what kind of stream is available for a given manifestation.
+What is also needed for the frontend is a query like "count all works from work set X  that have not any manifestation where  idx_stream_avail = 1 || idx_stream_avail 2" to exclude works without any streams to show in the fronend  (current checkbox in frontend "show only preview" should be renamed probably)
+
+&lt;ul&gt;
+&lt;li&gt;1 = preview stream available&lt;/li&gt;
+&lt;li&gt;2 = full stream available&lt;/li&gt;
+&lt;/ul&gt;
+
+If the property is missing for a given manifestation there is no stream available.
+
+&lt;a href="http://code.google.com/p/gama-gateway/issues/detail?id=23"&gt;Also see our issue tracker&lt;/a&gt;</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_display">
+    <rdfs:comment>Should the manifestation be displayed in the frontend</rdfs:comment>
+    <rdfs:label>Displayed Manifestation</rdfs:label>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/life_span">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:comment>Represents interval between date of birth and death.</rdfs:comment>
+    <rdfs:label>Person's date of birth and death</rdfs:label>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/dateInterval"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/idx_asr_avail">
+    <rdfs:comment>Also see http://code.google.com/p/gama-gateway/issues/detail?id=23</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/collection_title">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/labelType"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Collection"/>
+    <rdfs:label>Collection title</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_date">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/biography">
+    <rdfs:comment>The written history of a person's life.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>Biography</rdfs:label>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/event_location">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_image">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:comment>URL of thumbnail image representing the manifestation</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/idx_process">
+    <rdfs:comment>Defines the processing progress of the manifestation.
+&lt;p/&gt;
+Various values represent various processing states:
+&lt;ul&gt;
+&lt;li&gt;0/not present = manifestation which should not be processed&lt;/li&gt;
+&lt;li&gt;1 = this manifestation should be processed by the indexing engine&lt;/li&gt;
+&lt;li&gt;2 = processing started&lt;/li&gt;
+&lt;li&gt;3 = processing ended successfully&lt;/li&gt;
+&lt;li&gt;4 = processing ended with error&lt;/li&gt;
+&lt;/ul&gt;</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <rdfs:label>Manifestation processing progress</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_status">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <owl:versionInfo>TODO: What is this attribute good for ?</owl:versionInfo>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_title">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/labelType"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_identifier">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:comment>For instance ISBN:xxxxxxx</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/person_url">
+    <rdfs:comment>Link to person's homepage or webpage of an institution.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:label>Webpage</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/work_description">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/work_title">
+    <rdfs:comment>At least one work_title should be available for every Work instance.
+Work titles can be translated to various languages.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/labelType"/>
+    <rdfs:label>Work title</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://gama-gateway.eu/schema/manif_length">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:comment>Length of the manifestation.
+- Number of page in case of book manifestation
+- Length in seconds in case of audio-visual manifestation.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:TransitiveProperty rdf:about="http://gama-gateway.eu/schema/parent_term">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Term"/>
+  </owl:TransitiveProperty>
+  <owl:TransitiveProperty rdf:about="http://gama-gateway.eu/schema/has_subwork">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Work"/>
+    <owl:inverseOf>
+      <owl:TransitiveProperty rdf:about="http://gama-gateway.eu/schema/is_subwork_of"/>
+    </owl:inverseOf>
+  </owl:TransitiveProperty>
+  <owl:TransitiveProperty rdf:about="http://gama-gateway.eu/schema/member_of">
+    <owl:inverseOf rdf:resource="http://gama-gateway.eu/schema/has_member"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Person"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Person"/>
+  </owl:TransitiveProperty>
+  <owl:TransitiveProperty rdf:about="http://gama-gateway.eu/schema/is_subcollection_of"/>
+  <owl:TransitiveProperty rdf:about="http://gama-gateway.eu/schema/has_subcollection">
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/Collection"/>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Collection"/>
+    <owl:inverseOf rdf:resource="http://gama-gateway.eu/schema/is_subcollection_of"/>
+  </owl:TransitiveProperty>
+  <owl:TransitiveProperty rdf:about="http://gama-gateway.eu/schema/parent_worktype">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <rdfs:range rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <rdfs:comment>We define the hierarchy of work types using this property.</rdfs:comment>
+  </owl:TransitiveProperty>
+  <owl:SymmetricProperty rdf:about="http://gama-gateway.eu/schema/related_manifestation">
+    <rdfs:comment>This is just symmetric relation between two manifestations.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Manifestation"/>
+  </owl:SymmetricProperty>
+  <owl:SymmetricProperty rdf:about="http://gama-gateway.eu/schema/related_work">
+    <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
+  </owl:SymmetricProperty>
+</rdf:RDF>
+
+<!-- Created with TopBraid Composer -->

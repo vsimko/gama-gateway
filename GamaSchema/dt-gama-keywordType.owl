@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:gama="http://gama-gateway.eu/schema/"
+    xmlns:cache="http://gama-gateway.eu/cache/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://gama-gateway.eu/cache/">
+
+  <rdfs:Datatype rdf:about="http://gama-gateway.eu/schema/keywordType">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment>GAMA-specific datatype suitable for automatically generated keywords. Stores the keyword value and information about how it was generated. We support following types at the moment:
+&lt;ul&gt;
+&lt;li&gt;keyword&lt;/li&gt;
+&lt;li&gt;asr:keyword&lt;/li&gt;
+&lt;li&gt;ocr:keyword&lt;/li&gt;
+&lt;/ul&gt;</rdfs:comment>
+  </rdfs:Datatype>
+
+
+</rdf:RDF>
