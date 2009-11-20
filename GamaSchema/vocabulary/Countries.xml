@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://gama-gateway.eu/schema/Country/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:gama="http://gama-gateway.eu/schema/" xmlns="http://gama-gateway.eu/schema/Country/">
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AD">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Andorra</rdfs:label>
+    <rdfs:label xml:lang="de">Andorra</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">United Arab Emirates</rdfs:label>
+    <rdfs:label xml:lang="de">Vereinigte Arabische Emirate</rdfs:label>
+    <rdfs:label xml:lang="fr">Émirats arabes unis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Afghanistan</rdfs:label>
+    <rdfs:label xml:lang="de">Afghanistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Antigua and Barbuda</rdfs:label>
+    <rdfs:label xml:lang="de">Antigua und Barbuda</rdfs:label>
+    <rdfs:label xml:lang="fr">Antigua et Barbuda</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Anguilla</rdfs:label>
+    <rdfs:label xml:lang="de">Anguilla</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Albania</rdfs:label>
+    <rdfs:label xml:lang="de">Albanien</rdfs:label>
+    <rdfs:label xml:lang="fr">Albanie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Armenia</rdfs:label>
+    <rdfs:label xml:lang="de">Armenien</rdfs:label>
+    <rdfs:label xml:lang="fr">Arménie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Netherlands Antilles</rdfs:label>
+    <rdfs:label xml:lang="de">Niederländische Antillen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Angola</rdfs:label>
+    <rdfs:label xml:lang="de">Angola</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AQ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Antarctica</rdfs:label>
+    <rdfs:label xml:lang="de">Antarktis</rdfs:label>
+    <rdfs:label xml:lang="fr">Antarctique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Argentina</rdfs:label>
+    <rdfs:label xml:lang="de">Argentinien</rdfs:label>
+    <rdfs:label xml:lang="fr">Argentine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">American Samoa</rdfs:label>
+    <rdfs:label xml:lang="de">Amerikanisch-Samoa</rdfs:label>
+    <rdfs:label xml:lang="fr">Samoa américaines</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Austria</rdfs:label>
+    <rdfs:label xml:lang="de">Österreich</rdfs:label>
+    <rdfs:label xml:lang="fr">Autriche</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Australia</rdfs:label>
+    <rdfs:label xml:lang="de">Australien</rdfs:label>
+    <rdfs:label xml:lang="fr">Australie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Aruba</rdfs:label>
+    <rdfs:label xml:lang="de">Aruba</rdfs:label>
+    <rdfs:label xml:lang="fr">Aruba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AX">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Åland Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Åland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/AZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Azerbaijan</rdfs:label>
+    <rdfs:label xml:lang="de">Aserbaidschan</rdfs:label>
+    <rdfs:label xml:lang="fr">Azerbaïdjan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bosnia and Herzegovina</rdfs:label>
+    <rdfs:label xml:lang="de">Bosnien und Herzegowina</rdfs:label>
+    <rdfs:label xml:lang="fr">Bosnie-Herzégovine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BB">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Barbados</rdfs:label>
+    <rdfs:label xml:lang="de">Barbados</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BD">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bangladesh</rdfs:label>
+    <rdfs:label xml:lang="de">Bangladesch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Belgium</rdfs:label>
+    <rdfs:label xml:lang="de">Belgien</rdfs:label>
+    <rdfs:label xml:lang="fr">Belgique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Burkina Faso</rdfs:label>
+    <rdfs:label xml:lang="de">Burkina Faso</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bulgaria</rdfs:label>
+    <rdfs:label xml:lang="de">Bulgarien</rdfs:label>
+    <rdfs:label xml:lang="fr">Bulgarie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bahrain</rdfs:label>
+    <rdfs:label xml:lang="de">Bahrain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Burundi</rdfs:label>
+    <rdfs:label xml:lang="de">Burundi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BJ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Benin</rdfs:label>
+    <rdfs:label xml:lang="de">Benin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Saint Barthélemy</rdfs:label>
+    <rdfs:label xml:lang="de">Saint-Barthélemy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bermuda</rdfs:label>
+    <rdfs:label xml:lang="de">Bermuda</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Brunei Darussalam</rdfs:label>
+    <rdfs:label xml:lang="de">Brunei Darussalam</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bolovia</rdfs:label>
+    <rdfs:label xml:lang="de">Bolivien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Brazil</rdfs:label>
+    <rdfs:label xml:lang="de">Brasilien</rdfs:label>
+    <rdfs:label xml:lang="fr">Brésil</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bahamas</rdfs:label>
+    <rdfs:label xml:lang="de">Bahamas</rdfs:label>
+    <rdfs:label xml:lang="fr">Bahamas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bhutan</rdfs:label>
+    <rdfs:label xml:lang="de">Bhutan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BV">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Bouvet Island</rdfs:label>
+    <rdfs:label xml:lang="de">Bouvetinsel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Botswana</rdfs:label>
+    <rdfs:label xml:lang="de">Botswana</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Belarus</rdfs:label>
+    <rdfs:label xml:lang="de">Belarus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/BZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Belize</rdfs:label>
+    <rdfs:label xml:lang="de">Belize</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Canada</rdfs:label>
+    <rdfs:label xml:lang="de">Kanada</rdfs:label>
+    <rdfs:label xml:lang="fr">Canada</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CC">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cocos Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Kokosinseln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CD">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Democratic Republic of the Congo</rdfs:label>
+    <rdfs:label xml:lang="de">Demokratische Republik Kongo</rdfs:label>
+    <rdfs:label xml:lang="fr">République démocratique du Congo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Central African Republic</rdfs:label>
+    <rdfs:label xml:lang="de">Zentralafrikanische Republik</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Congo</rdfs:label>
+    <rdfs:label xml:lang="de">Republik Kongo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Switzerland</rdfs:label>
+    <rdfs:label xml:lang="de">Schweiz</rdfs:label>
+    <rdfs:label xml:lang="fr">Suisse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cote d'Ivoire</rdfs:label>
+    <rdfs:label xml:lang="de">Elfenbeinküste</rdfs:label>
+    <rdfs:label xml:lang="fr">Côte d'Ivoire</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cook Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Cookinseln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Chile</rdfs:label>
+    <rdfs:label xml:lang="de">Chile</rdfs:label>
+    <rdfs:label xml:lang="fr">Chili</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cameroon</rdfs:label>
+    <rdfs:label xml:lang="de">Kamerun</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">China</rdfs:label>
+    <rdfs:label xml:lang="de">China</rdfs:label>
+    <rdfs:label xml:lang="fr">Chine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Colombia</rdfs:label>
+    <rdfs:label xml:lang="de">Kolumbien</rdfs:label>
+    <rdfs:label xml:lang="fr">Colombie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Costa Rica</rdfs:label>
+    <rdfs:label xml:lang="de">Costa Rica</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cuba</rdfs:label>
+    <rdfs:label xml:lang="de">Kuba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CV">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cape Verde</rdfs:label>
+    <rdfs:label xml:lang="de">Kap Verde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CX">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Christmas Island</rdfs:label>
+    <rdfs:label xml:lang="de">Weihnachtsinsel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cyprus</rdfs:label>
+    <rdfs:label xml:lang="de">Zypern</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/CZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Czech Republic</rdfs:label>
+    <rdfs:label xml:lang="de">Tschechien</rdfs:label>
+    <rdfs:label xml:lang="fr">Tchèquie</rdfs:label>
+    <rdfs:label xml:lang="cs">Česká Republika</rdfs:label>
+    <rdfs:label xml:lang="sk">Česká Republika</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/DE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Germany</rdfs:label>
+    <rdfs:label xml:lang="de">Deutschland</rdfs:label>
+    <rdfs:label xml:lang="fr">Allemagne</rdfs:label>
+    <rdfs:label xml:lang="cs">Německo</rdfs:label>
+    <rdfs:label xml:lang="sk">Nemecko</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/DJ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Djibouti</rdfs:label>
+    <rdfs:label xml:lang="de">Dschibuti</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/DK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Denmark</rdfs:label>
+    <rdfs:label xml:lang="de">Dänemark</rdfs:label>
+    <rdfs:label xml:lang="fr">Danemark</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/DM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Dominica</rdfs:label>
+    <rdfs:label xml:lang="de">Dominica</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/DO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Dominican Republic</rdfs:label>
+    <rdfs:label xml:lang="de">Dominikanische Republik</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/DZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Algeria</rdfs:label>
+    <rdfs:label xml:lang="de">Algerien</rdfs:label>
+    <rdfs:label xml:lang="fr">Algérie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/EC">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Ecuador</rdfs:label>
+    <rdfs:label xml:lang="de">Ecuador</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/EE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Estonia</rdfs:label>
+    <rdfs:label xml:lang="de">Estland</rdfs:label>
+    <rdfs:label xml:lang="fr">Estonie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/EG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Egypt</rdfs:label>
+    <rdfs:label xml:lang="de">Ägypten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/EH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Western Sahara</rdfs:label>
+    <rdfs:label xml:lang="de">Westsahara</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ER">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Eritrea</rdfs:label>
+    <rdfs:label xml:lang="de">Eritrea</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ES">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Spain</rdfs:label>
+    <rdfs:label xml:lang="de">Spanien</rdfs:label>
+    <rdfs:label xml:lang="fr">Espagne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ET">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Ethiopia</rdfs:label>
+    <rdfs:label xml:lang="de">Äthiopien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/FI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Finland</rdfs:label>
+    <rdfs:label xml:lang="de">Finnland</rdfs:label>
+    <rdfs:label xml:lang="fr">Finlande</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/FJ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Fiji</rdfs:label>
+    <rdfs:label xml:lang="de">Fidschi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/FK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Falkland Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Falklandinseln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/FM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en"> Micronesia</rdfs:label>
+    <rdfs:label xml:lang="de">Mikronesien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/FO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Faroe Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Färöer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/FR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">France</rdfs:label>
+    <rdfs:label xml:lang="de">Frankreich</rdfs:label>
+    <rdfs:label xml:lang="fr">France</rdfs:label>
+    <rdfs:label xml:lang="cs">Francie</rdfs:label>
+    <rdfs:label xml:lang="sk">Francúzsko</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Gabon</rdfs:label>
+    <rdfs:label xml:lang="de">Gabun</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GB">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">United Kingdom</rdfs:label>
+    <rdfs:label xml:lang="de">Vereinigtes Königreich Großbritannien und Nordirland</rdfs:label>
+    <rdfs:label xml:lang="fr">Royaume-Uni</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GD">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Grenada</rdfs:label>
+    <rdfs:label xml:lang="de">Grenada</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Georgia</rdfs:label>
+    <rdfs:label xml:lang="de">Georgien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">French Guiana</rdfs:label>
+    <rdfs:label xml:lang="de">Französisch-Guayana</rdfs:label>
+    <rdfs:label xml:lang="fr">Guyane française</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Guernsey</rdfs:label>
+    <rdfs:label xml:lang="de">Guernsey</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Ghana</rdfs:label>
+    <rdfs:label xml:lang="de">Ghana</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Gibraltar</rdfs:label>
+    <rdfs:label xml:lang="de">Gibraltar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Greenland</rdfs:label>
+    <rdfs:label xml:lang="de">Grönland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Gambia</rdfs:label>
+    <rdfs:label xml:lang="de">Gambia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Guinea</rdfs:label>
+    <rdfs:label xml:lang="de">Guinea</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GP">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Guadeloupe</rdfs:label>
+    <rdfs:label xml:lang="de">Guadeloupe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GQ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Equatorial Guinea</rdfs:label>
+    <rdfs:label xml:lang="de">Äquatorialguinea</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Greece</rdfs:label>
+    <rdfs:label xml:lang="de">Griechenland</rdfs:label>
+    <rdfs:label xml:lang="fr">Grèce</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">South Georgia and the South Sandwich Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Südgeorgien und die Südlichen Sandwichinseln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Guatemala</rdfs:label>
+    <rdfs:label xml:lang="de">Guatemala</rdfs:label>
+    <rdfs:label xml:lang="fr">Guatemala</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Guam</rdfs:label>
+    <rdfs:label xml:lang="de">Guam</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Guinea-Bissau</rdfs:label>
+    <rdfs:label xml:lang="de">Guinea-Bissau</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/GY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Guyana</rdfs:label>
+    <rdfs:label xml:lang="de">Guyana</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/HK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Hong Kong</rdfs:label>
+    <rdfs:label xml:lang="de">Hongkong</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/HM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Heard Island and McDonald Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Heard- und McDonald-Inseln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/HN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Honduras</rdfs:label>
+    <rdfs:label xml:lang="de">Honduras</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/HR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Croatia</rdfs:label>
+    <rdfs:label xml:lang="de">Kroatien</rdfs:label>
+    <rdfs:label xml:lang="fr">Croatie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/HT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Haiti</rdfs:label>
+    <rdfs:label xml:lang="de">Haiti</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/HU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Hungary</rdfs:label>
+    <rdfs:label xml:lang="de">Ungarn</rdfs:label>
+    <rdfs:label xml:lang="fr">Hongrie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ID">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Indonesia</rdfs:label>
+    <rdfs:label xml:lang="de">Indonesien</rdfs:label>
+    <rdfs:label xml:lang="fr">Indonésie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Ireland</rdfs:label>
+    <rdfs:label xml:lang="de">Irland</rdfs:label>
+    <rdfs:label xml:lang="fr">Irlande</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Israel</rdfs:label>
+    <rdfs:label xml:lang="de">Israel</rdfs:label>
+    <rdfs:label xml:lang="fr">Israël </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Isle of Man</rdfs:label>
+    <rdfs:label xml:lang="de">Insel Man</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">India</rdfs:label>
+    <rdfs:label xml:lang="de">Indien</rdfs:label>
+    <rdfs:label xml:lang="fr">Inde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">British Indian Ocean Territory</rdfs:label>
+    <rdfs:label xml:lang="de">Britisches Territorium im Indischen Ozean</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IQ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Iraq</rdfs:label>
+    <rdfs:label xml:lang="de">Irak</rdfs:label>
+    <rdfs:label xml:lang="fr">Iraq</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Iran</rdfs:label>
+    <rdfs:label xml:lang="de">Iran</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Iceland</rdfs:label>
+    <rdfs:label xml:lang="de">Island</rdfs:label>
+    <rdfs:label xml:lang="fr">Islande</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/IT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Italy</rdfs:label>
+    <rdfs:label xml:lang="de">Italien</rdfs:label>
+    <rdfs:label xml:lang="fr">Italie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/JE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Jersey</rdfs:label>
+    <rdfs:label xml:lang="de">Jersey</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/JM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Jamaika</rdfs:label>
+    <rdfs:label xml:lang="de">Jamaika</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/JO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Jordan</rdfs:label>
+    <rdfs:label xml:lang="de">Jordanien</rdfs:label>
+    <rdfs:label xml:lang="fr">Jordanie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/JP">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Japan</rdfs:label>
+    <rdfs:label xml:lang="de">Japan</rdfs:label>
+    <rdfs:label xml:lang="fr">Japon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Kenya</rdfs:label>
+    <rdfs:label xml:lang="de">Kenia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Kyrgyzstan</rdfs:label>
+    <rdfs:label xml:lang="de">Kirgisistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cambodia</rdfs:label>
+    <rdfs:label xml:lang="de">Kambodscha</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Kiribati</rdfs:label>
+    <rdfs:label xml:lang="de">Kiribati</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Comoros</rdfs:label>
+    <rdfs:label xml:lang="de">Komoren</rdfs:label>
+    <rdfs:label xml:lang="fr">Comores</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Saint Kitts and Nevis</rdfs:label>
+    <rdfs:label xml:lang="de">St. Kitts und Nevis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KP">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">North Korea</rdfs:label>
+    <rdfs:label xml:lang="de">Nordkorea</rdfs:label>
+    <rdfs:label xml:lang="fr">Corée du Nord</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">South Korea</rdfs:label>
+    <rdfs:label xml:lang="de">Südkorea</rdfs:label>
+    <rdfs:label xml:lang="fr">Corée du Sud</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Kuwait</rdfs:label>
+    <rdfs:label xml:lang="de">Kuwait</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Cayman Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Kaimaninseln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/KZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Kazakhstan</rdfs:label>
+    <rdfs:label xml:lang="de">Kasachstan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Laos</rdfs:label>
+    <rdfs:label xml:lang="de">Laos</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LB">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Lebanon</rdfs:label>
+    <rdfs:label xml:lang="de">Libanon</rdfs:label>
+    <rdfs:label xml:lang="fr">Liban</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LC">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Saint Lucia</rdfs:label>
+    <rdfs:label xml:lang="de">St. Lucia</rdfs:label>
+    <rdfs:label xml:lang="fr">Sainte-Lucie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Liechtenstein</rdfs:label>
+    <rdfs:label xml:lang="de">Liechtenstein</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Sri Lanka</rdfs:label>
+    <rdfs:label xml:lang="de">Sri Lanka</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Liberia</rdfs:label>
+    <rdfs:label xml:lang="de">Liberia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Lesotho</rdfs:label>
+    <rdfs:label xml:lang="de">Lesotho</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Lithuania</rdfs:label>
+    <rdfs:label xml:lang="de">Litauen</rdfs:label>
+    <rdfs:label xml:lang="fr">Lituanie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Luxembourg</rdfs:label>
+    <rdfs:label xml:lang="de">Luxemburg</rdfs:label>
+    <rdfs:label xml:lang="fr">Luxembourg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LV">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Latvia</rdfs:label>
+    <rdfs:label xml:lang="de">Lettland</rdfs:label>
+    <rdfs:label xml:lang="fr">Lettonie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/LY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Libya</rdfs:label>
+    <rdfs:label xml:lang="de">Libyen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Morocco</rdfs:label>
+    <rdfs:label xml:lang="de">Marokko</rdfs:label>
+    <rdfs:label xml:lang="fr">Maroc</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MC">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Monaco</rdfs:label>
+    <rdfs:label xml:lang="de">Monaco</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MD">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Moldova</rdfs:label>
+    <rdfs:label xml:lang="de">Moldawien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ME">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Montenegro</rdfs:label>
+    <rdfs:label xml:lang="de">Montenegro</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Saint Martin</rdfs:label>
+    <rdfs:label xml:lang="de">Saint-Martin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Madagascar</rdfs:label>
+    <rdfs:label xml:lang="de">Madagaskar</rdfs:label>
+    <rdfs:label xml:lang="fr">Madagascar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Marshall Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Marshallinseln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Macedonia</rdfs:label>
+    <rdfs:label xml:lang="de">Mazedonien</rdfs:label>
+    <rdfs:label xml:lang="fr">Macédoine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ML">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Mali</rdfs:label>
+    <rdfs:label xml:lang="de">Mali</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Myanmar (Burma)</rdfs:label>
+    <rdfs:label xml:lang="de">Myanmar (Burma)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Mongolia</rdfs:label>
+    <rdfs:label xml:lang="de">Mongolei</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Macao</rdfs:label>
+    <rdfs:label xml:lang="de">Macao</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MP">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Northern Mariana Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Nördliche Marianen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MQ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Martinique</rdfs:label>
+    <rdfs:label xml:lang="de">Martinique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Mauritania</rdfs:label>
+    <rdfs:label xml:lang="de">Mauretanien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Montserrat</rdfs:label>
+    <rdfs:label xml:lang="de">Montserrat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Malta</rdfs:label>
+    <rdfs:label xml:lang="de">Malta</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Mauritius</rdfs:label>
+    <rdfs:label xml:lang="de">Mauritius</rdfs:label>
+    <rdfs:label xml:lang="fr">Maurice</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MV">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Maldives</rdfs:label>
+    <rdfs:label xml:lang="de">Malediven</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Malawi</rdfs:label>
+    <rdfs:label xml:lang="de">Malawi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MX">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Mexico</rdfs:label>
+    <rdfs:label xml:lang="de">Mexiko</rdfs:label>
+    <rdfs:label xml:lang="fr">Mexique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Malaysia</rdfs:label>
+    <rdfs:label xml:lang="de">Malaysia</rdfs:label>
+    <rdfs:label xml:lang="fr">Malaisie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/MZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Mozambique</rdfs:label>
+    <rdfs:label xml:lang="de">Mosambik</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Namibia</rdfs:label>
+    <rdfs:label xml:lang="de">Namibia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NC">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">New Caledonia</rdfs:label>
+    <rdfs:label xml:lang="de">Neukaledonien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Niger</rdfs:label>
+    <rdfs:label xml:lang="de">Niger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Norfolk Island</rdfs:label>
+    <rdfs:label xml:lang="de">Norfolkinsel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Nigeria</rdfs:label>
+    <rdfs:label xml:lang="de">Nigeria</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Nicaragua</rdfs:label>
+    <rdfs:label xml:lang="de">Nicaragua</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Netherlands</rdfs:label>
+    <rdfs:label xml:lang="de">Niederlande</rdfs:label>
+    <rdfs:label xml:lang="fr">Pays-Bas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Norway</rdfs:label>
+    <rdfs:label xml:lang="de">Norwegen</rdfs:label>
+    <rdfs:label xml:lang="fr">Norvège</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NP">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Nepal</rdfs:label>
+    <rdfs:label xml:lang="de">Nepal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Nauru</rdfs:label>
+    <rdfs:label xml:lang="de">Nauru</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Niue</rdfs:label>
+    <rdfs:label xml:lang="de">Niue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/NZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">New Zealand</rdfs:label>
+    <rdfs:label xml:lang="de">Neuseeland</rdfs:label>
+    <rdfs:label xml:lang="fr">Nouvelle-Zélande</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/OM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Oman</rdfs:label>
+    <rdfs:label xml:lang="de">Oman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Panama</rdfs:label>
+    <rdfs:label xml:lang="de">Panama</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Peru</rdfs:label>
+    <rdfs:label xml:lang="de">Peru</rdfs:label>
+    <rdfs:label xml:lang="fr">Pérou</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">French Polynesia</rdfs:label>
+    <rdfs:label xml:lang="de">Französisch-Polynesien</rdfs:label>
+    <rdfs:label xml:lang="fr">Polynésie française</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Papua New Guinea</rdfs:label>
+    <rdfs:label xml:lang="de">Papua-Neuguinea</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Philippines</rdfs:label>
+    <rdfs:label xml:lang="de">Philippinen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Pakistan</rdfs:label>
+    <rdfs:label xml:lang="de">Pakistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Poland</rdfs:label>
+    <rdfs:label xml:lang="de">Polen</rdfs:label>
+    <rdfs:label xml:lang="fr">Pologne</rdfs:label>
+    <rdfs:label xml:lang="pl">Polska</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Saint Pierre and Miquelon</rdfs:label>
+    <rdfs:label xml:lang="de">Saint-Pierre und Miquelon </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Pitcairn Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Pitcairninseln </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Puerto Rico</rdfs:label>
+    <rdfs:label xml:lang="de">Puerto Rico </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Palestinian territories</rdfs:label>
+    <rdfs:label xml:lang="de">Palästinensische Autonomiegebiete </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Portugal</rdfs:label>
+    <rdfs:label xml:lang="de">Portugal</rdfs:label>
+    <rdfs:label xml:lang="fr">Portugal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Palau</rdfs:label>
+    <rdfs:label xml:lang="de">Palau</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/PY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Paraguay</rdfs:label>
+    <rdfs:label xml:lang="de">Paraguay</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/QA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Qatar </rdfs:label>
+    <rdfs:label xml:lang="de">Katar </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/RE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Réunion</rdfs:label>
+    <rdfs:label xml:lang="de">Réunion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/RO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Romania</rdfs:label>
+    <rdfs:label xml:lang="de">Rumänien</rdfs:label>
+    <rdfs:label xml:lang="fr">Roumanie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/RS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Serbia</rdfs:label>
+    <rdfs:label xml:lang="de">Serbien</rdfs:label>
+    <rdfs:label xml:lang="fr">Serbie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/RU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Russia</rdfs:label>
+    <rdfs:label xml:lang="de">Russland</rdfs:label>
+    <rdfs:label xml:lang="fr">Russie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/RW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Rwanda</rdfs:label>
+    <rdfs:label xml:lang="de">Ruanda</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Saudi Arabia</rdfs:label>
+    <rdfs:label xml:lang="de">Saudi-Arabien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SB">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Solomon Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Salomonen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SC">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Seychelles</rdfs:label>
+    <rdfs:label xml:lang="de">Seychellen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SD">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Sudan</rdfs:label>
+    <rdfs:label xml:lang="de">Sudan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Sweden</rdfs:label>
+    <rdfs:label xml:lang="de">Schweden</rdfs:label>
+    <rdfs:label xml:lang="fr">Suède</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Singapore</rdfs:label>
+    <rdfs:label xml:lang="de">Singapur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Saint Helena</rdfs:label>
+    <rdfs:label xml:lang="de">St. Helena</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Slovenia</rdfs:label>
+    <rdfs:label xml:lang="de">Slowenien</rdfs:label>
+    <rdfs:label xml:lang="fr">Slovénie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SJ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Svalbard and Jan Mayen</rdfs:label>
+    <rdfs:label xml:lang="de">Svalbard und Jan Mayen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Slovakia</rdfs:label>
+    <rdfs:label xml:lang="de">Slowakei</rdfs:label>
+    <rdfs:label xml:lang="fr">Slovaquie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Sierra Leone</rdfs:label>
+    <rdfs:label xml:lang="de">Sierra Leone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">San Marino</rdfs:label>
+    <rdfs:label xml:lang="de">San Marino</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Senegal</rdfs:label>
+    <rdfs:label xml:lang="de">Senegal</rdfs:label>
+    <rdfs:label xml:lang="fr">Sénégal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Somalia</rdfs:label>
+    <rdfs:label xml:lang="de">Somalia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Suriname</rdfs:label>
+    <rdfs:label xml:lang="de">Suriname</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ST">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">São Tomé and Príncipe</rdfs:label>
+    <rdfs:label xml:lang="de">São Tomé und Príncipe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SV">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">El Salvador</rdfs:label>
+    <rdfs:label xml:lang="de">El Salvador</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Syria</rdfs:label>
+    <rdfs:label xml:lang="de">Syrien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/SZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Swaziland</rdfs:label>
+    <rdfs:label xml:lang="de">Swasiland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TC">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Turks and Caicos Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Turks- und Caicosinseln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TD">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Chad</rdfs:label>
+    <rdfs:label xml:lang="de">Tschad</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">French Southern and Antarctic Lands</rdfs:label>
+    <rdfs:label xml:lang="de">Französische Süd- und Antarktisgebiete</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Togo</rdfs:label>
+    <rdfs:label xml:lang="de">Togo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TH">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Thailand</rdfs:label>
+    <rdfs:label xml:lang="de">Thailand</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TJ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Tajikistan</rdfs:label>
+    <rdfs:label xml:lang="de">Tadschikistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Tokelau</rdfs:label>
+    <rdfs:label xml:lang="de">Tokelau</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TL">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Timor-Leste</rdfs:label>
+    <rdfs:label xml:lang="de">Osttimor (Timor-Leste)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Turkmenistan</rdfs:label>
+    <rdfs:label xml:lang="de">Turkmenistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Tunisia</rdfs:label>
+    <rdfs:label xml:lang="de">Tunesien</rdfs:label>
+    <rdfs:label xml:lang="fr">Tunisie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TO">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Tonga</rdfs:label>
+    <rdfs:label xml:lang="de">Tonga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TR">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Turkey</rdfs:label>
+    <rdfs:label xml:lang="de">Türkei</rdfs:label>
+    <rdfs:label xml:lang="fr">Turquie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Trinidad and Tobago</rdfs:label>
+    <rdfs:label xml:lang="de">Trinidad und Tobago</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TV">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Tuvalu</rdfs:label>
+    <rdfs:label xml:lang="de">Tuvalu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Taiwan</rdfs:label>
+    <rdfs:label xml:lang="de">Taiwan</rdfs:label>
+    <rdfs:label xml:lang="fr">Taïwan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/TZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Tanzania</rdfs:label>
+    <rdfs:label xml:lang="de">Tansania</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/UA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Ukraine</rdfs:label>
+    <rdfs:label xml:lang="de">Ukraine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/UG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Uganda</rdfs:label>
+    <rdfs:label xml:lang="de">Uganda</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/UK">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">United Kingdom</rdfs:label>
+    <rdfs:label xml:lang="de">Vereinigtes Königreich Großbritannien und Nordirland</rdfs:label>
+    <rdfs:label xml:lang="fr">Royaume-Uni</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/UM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">United States Minor Outlying Islands</rdfs:label>
+    <rdfs:label xml:lang="de">United States Minor Outlying Islands</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/US">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">United States of America</rdfs:label>
+    <rdfs:label xml:lang="de">Vereinigte Staaten von Amerika</rdfs:label>
+    <rdfs:label xml:lang="fr">États-Unis d'Amérique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/UY">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Uruguay</rdfs:label>
+    <rdfs:label xml:lang="de">Uruguay</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/UZ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Uzbekistan</rdfs:label>
+    <rdfs:label xml:lang="de">Usbekistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/VA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">State of the Vatican City</rdfs:label>
+    <rdfs:label xml:lang="de">Vatikanstadt </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/VC">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Saint Vincent and the Grenadines</rdfs:label>
+    <rdfs:label xml:lang="de">St. Vincent und die Grenadinen </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/VE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Venezuela </rdfs:label>
+    <rdfs:label xml:lang="de">Venezuela </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/VG">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">British Virgin Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Britische Jungferninseln </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/VI">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">United States Virgin Islands</rdfs:label>
+    <rdfs:label xml:lang="de">Amerikanische Jungferninseln </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/VN">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Vietnam </rdfs:label>
+    <rdfs:label xml:lang="de">Vietnam </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/VU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Vanuatu </rdfs:label>
+    <rdfs:label xml:lang="de">Vanuatu </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/WF">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Wallis and Futuna</rdfs:label>
+    <rdfs:label xml:lang="de">Wallis und Futuna</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/WS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Samoa</rdfs:label>
+    <rdfs:label xml:lang="de">Samoa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/YE">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Yemen</rdfs:label>
+    <rdfs:label xml:lang="de">Jemen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/YT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Mayotte</rdfs:label>
+    <rdfs:label xml:lang="de">Mayotte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/YU">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Yugoslavia</rdfs:label>
+    <rdfs:label xml:lang="de">Jugoslawien</rdfs:label>
+    <rdfs:label xml:lang="fr">Yougoslavie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ZA">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">South Africa</rdfs:label>
+    <rdfs:label xml:lang="de">Südafrika</rdfs:label>
+    <rdfs:label xml:lang="fr">Afrique du Sud</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ZM">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Zambia</rdfs:label>
+    <rdfs:label xml:lang="de">Sambia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Country/ZW">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Country"/>
+    <rdfs:label xml:lang="en">Zimbabwe</rdfs:label>
+    <rdfs:label xml:lang="de">Simbabwe</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,2793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://gama-gateway.eu/schema/Term/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:gama="http://gama-gateway.eu/schema/" xmlns="http://gama-gateway.eu/schema/Term/">
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>art movements till 1930</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>art movements 40's, 50's &amp; aftermath</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>art movements 60's, 70's</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtWorld">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>art world</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>media art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>music</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sound">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>sound</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>participatory practices</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>ecology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>exhibiting</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>artistic processes</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>typography &amp; drawing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>art piece</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>art media</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>art techniques</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArtPresentation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>media art presentation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PublicArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>public art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>film genre</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>film &amp; theatre</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>literary genre</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>internet (applications)</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>digital networks</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>IT</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HardwareSoftware">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>hardware / software</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>digital culture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Architecture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>architecture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Design">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>design</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>literature</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>authorship rights</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Narration">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>narration</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>RTV &amp; phone</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>technology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>health</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Mishap">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>mishap</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Tradition">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>tradition</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Religion">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>religion</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>equal rights</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>geopolitics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>sexuality</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>emotions</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>personal issues</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>control</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>life</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Senses">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>senses</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>political movement</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>war</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>body</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Education">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>education</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Physics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>physics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Elements">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>elements</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>commerce</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>social issues</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>information society</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>Human Sciences</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:term_value>Natural Sciences</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930/AvantGarde">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930"/>
+    <gama:term_value>avant-garde</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930/Cubism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930"/>
+    <gama:term_value>cubism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930/Dadaism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930"/>
+    <gama:term_value>dadaism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930/Expressionism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930"/>
+    <gama:term_value>expressionism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930/Futurism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930"/>
+    <gama:term_value>futurism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930/Realism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovementsTill1930"/>
+    <gama:term_value>realism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath/ActionArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath"/>
+    <gama:term_value>action art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath/AbstractArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath"/>
+    <gama:term_value>abstract art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath/KineticArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath"/>
+    <gama:term_value>kinetic art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath/Modernism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath"/>
+    <gama:term_value>modernism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath/Minimalism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath"/>
+    <gama:term_value>minimalism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath/Constructivism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements40s50sAndAftermath"/>
+    <gama:term_value>constructivism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s/ArtBrut">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements60s70s"/>
+    <gama:term_value>art brut</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s/ArtePovera">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements60s70s"/>
+    <gama:term_value>arte povera</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s/ConceptualArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements60s70s"/>
+    <gama:term_value>conceptual art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s/Fluxus">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements60s70s"/>
+    <gama:term_value>fluxus</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s/LandArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements60s70s"/>
+    <gama:term_value>land art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s/OpArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements60s70s"/>
+    <gama:term_value>op art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s/PopArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements60s70s"/>
+    <gama:term_value>pop art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMovements60s70s/Situationism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMovements60s70s"/>
+    <gama:term_value>situationism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtWorld/ArtCriticism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtWorld"/>
+    <gama:term_value>art criticism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtWorld/ArtEducation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtWorld"/>
+    <gama:term_value>art education</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtWorld/ArtHistory">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtWorld"/>
+    <gama:term_value>art history</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtWorld/ArtManagement">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtWorld"/>
+    <gama:term_value>art management</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtWorld/ArtMarket">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtWorld"/>
+    <gama:term_value>art market</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtWorld/ArtSystem">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtWorld"/>
+    <gama:term_value>art system</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtWorld/Funding">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtWorld"/>
+    <gama:term_value>funding</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/ComputerArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>computer art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/ConceptArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>concept art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/DigitalArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>digital art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/GenerativeArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>generative art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/InternetArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>internet art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/LaserArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>laser art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/TelematicArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>telematic art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/DatabaseArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>database art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/FaxArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>fax art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/MailArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>mail art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/MediaArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>media art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/NetArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>net.art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/RadioArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>radio art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/SoftwareArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>software art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/TelevisionArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>television art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArt/VideoArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArt"/>
+    <gama:term_value>video art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/Acoustic">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>acoustic</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/Audio">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>audio</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/AudiovisualCulture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>audiovisual culture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/ComputerMusic">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>computer music</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/DigitalMusic">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>digital music</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/DJ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>DJ</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/ElectroAcoustics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>electro-acoustics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/ElectronicMusic">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>electronic music</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/Music">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>music</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/SoundArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>sound art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/SoundImageInteraction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>sound-image interaction</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/SoundSculpture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>sound sculpture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/SoundSynthesis">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>sound synthesis</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Music/VJ">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Music"/>
+    <gama:term_value>VJ</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sound/Echo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sound"/>
+    <gama:term_value>echo</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sound/Noise">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sound"/>
+    <gama:term_value>noise</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sound/Rhythm">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sound"/>
+    <gama:term_value>rhythm</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sound/Sound">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sound"/>
+    <gama:term_value>sound</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sound/Silence">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sound"/>
+    <gama:term_value>silence</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sound/Voice">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sound"/>
+    <gama:term_value>voice</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/ArtistInResidency">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>artist in residency</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/ArtisticCollaboration">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>artistic collaboration</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/ArtisticResearch">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>artistic research</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/DoItYourself">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>do-it-yourself</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/HighTech">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>high tech</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/LowTech">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>low tech</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/Participation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>participation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/Reconstruction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>reconstruction</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/Reenactment">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>reenactment</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/RelationalArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>relational art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ParticipatoryPractices/SelfOrganisation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ParticipatoryPractices"/>
+    <gama:term_value>self organisation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/Animal">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>animal</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/BioArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>bio art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/Earth">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>earth</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/Ecology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>ecology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/Environment">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>environment</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/EnvironmentalArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>environmental art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/GeneticArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>genetic art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/Genetics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>genetics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/Nature">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>nature</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Ecology/Pollution">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Ecology"/>
+    <gama:term_value>pollution</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting/Collecting">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Exhibiting"/>
+    <gama:term_value>collecting</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting/Curating">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Exhibiting"/>
+    <gama:term_value>curating</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting/Biennial">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Exhibiting"/>
+    <gama:term_value>biennial</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting/Exhibition">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Exhibiting"/>
+    <gama:term_value>exhibition</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting/Festival">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Exhibiting"/>
+    <gama:term_value>festival</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting/Museology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Exhibiting"/>
+    <gama:term_value>museology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting/Museum">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Exhibiting"/>
+    <gama:term_value>museum</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Exhibiting/Retrospective">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Exhibiting"/>
+    <gama:term_value>retrospective</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Biography/Biography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Biography"/>
+    <gama:term_value>biography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Biography/Autobiography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Biography"/>
+    <gama:term_value>autobiography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Biography/Homage">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Biography"/>
+    <gama:term_value>homage</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Biography/Portrait">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Biography"/>
+    <gama:term_value>portrait</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Biography/SelfPortrait">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Biography"/>
+    <gama:term_value>self-portrait</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Action">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>action</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Appropriation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>appropriation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Deconstruction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>deconstruction</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Experiment">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>experiment </gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Improvisation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>improvisation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Interpretation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>interpretation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Process">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>process</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Reproduction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>reproduction</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Research">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>research</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtisticProcesses/Visualisation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtisticProcesses"/>
+    <gama:term_value>visualisation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Animation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>animation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Calligraphy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>calligraphy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Comics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>comics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Cartoon">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>cartoon</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/DirectAnimation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>direct animation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Drawing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>drawing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Graffiti">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>graffiti</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Manga">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>manga</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Print">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>print</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/TypographyAndDrawing/Typography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/TypographyAndDrawing"/>
+    <gama:term_value>typography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/Happening">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>happening</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/Installation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>installation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/Painting">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>painting</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/Performance">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>performance</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/Photography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>photography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/ReadyMade">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>ready made</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/Sculpture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>sculpture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/SiteSpecific">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>site-specific</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/SoundInstallation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>sound installation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/Video">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>video</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/VideoInstallation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>video installation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtPiece/WorkOfArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtPiece"/>
+    <gama:term_value>work of art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/BodyArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>body art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/ExperimentalArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>experimental art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/HybridArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>hybrid art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/InteractiveArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>interactive art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/Interdisciplinary">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>interdisciplinary</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/LightArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>light art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/MixedMedia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>mixed media</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/Multimedia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>multimedia</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtMedia/ProcessArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtMedia"/>
+    <gama:term_value>process art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Collage">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>collage</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Clip">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>clip</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/CloseUpViews">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>close-up views</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Distortion">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>distortion</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/FoundFootage">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>found footage</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Holography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>holography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Modeling">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>modeling</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Montage">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>montage</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Simulation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>simulation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/SpecialEffects">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>special effects</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Sampling">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>sampling</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/SlowMotion">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>slow motion</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/ArtTechniques/Technique">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/ArtTechniques"/>
+    <gama:term_value>technique</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArtPresentation/ClosedCircuit">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArtPresentation"/>
+    <gama:term_value>closed-circuit</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArtPresentation/Loop">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArtPresentation"/>
+    <gama:term_value>loop</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArtPresentation/MultiChannel">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArtPresentation"/>
+    <gama:term_value>multi-channel</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArtPresentation/RealTime">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArtPresentation"/>
+    <gama:term_value>real-time</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/MediaArtPresentation/SingleChannel">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/MediaArtPresentation"/>
+    <gama:term_value>single-channel</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PublicArt/PublicArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PublicArt"/>
+    <gama:term_value>public art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PublicArt/PublicOpinion">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PublicArt"/>
+    <gama:term_value>public opinion</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PublicArt/PublicPrivate">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PublicArt"/>
+    <gama:term_value>public / private</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PublicArt/PublicSpace">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PublicArt"/>
+    <gama:term_value>public space</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PublicArt/StreetArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PublicArt"/>
+    <gama:term_value>street art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/ArtistFilm">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>artist film</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/DirectorsCut">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>director's cut</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/Documentary">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>documentary</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/ExpandedCinema">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>expanded cinema</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/ExperimentalFilm">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>experimental film</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/FilmEssay">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>film essay</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/FilmHistory">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>film history</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/IndependentCinema">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>independent cinema</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/InteractiveCinema">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>interactive cinema</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmGenre/LiveCinema">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmGenre"/>
+    <gama:term_value>live cinema</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Acting">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>acting</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Audience">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>audience</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Choreography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>choreography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Cinema">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>cinema</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Dance">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>dance</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/DirectingFilm">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>directing (film)</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Dramaturgy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>dramaturgy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Opera">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>opera</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/PerformingArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>performing art</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Scenography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>scenography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Theatre">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>theatre</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/FilmAndTheatre/Viewer">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/FilmAndTheatre"/>
+    <gama:term_value>viewer</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/Dystopia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>dystopia</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/Fiction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>fiction</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/Fantasy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>fantasy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/FairyTales">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>fairy tales</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/Mythology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>mythology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/Parody">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>parody</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/ScienceFiction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>science fiction</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/Storytelling">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>storytelling</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/Tragedy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>tragedy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/LiteraryGenre/Utopia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/LiteraryGenre"/>
+    <gama:term_value>utopia</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/Blog">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>blog</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/Browser">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>browser</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/Chatting">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>chatting</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/EMail">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>e-mail</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/StreamingMedia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>streaming media</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/SearchEngines">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>search engines</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/Web20">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>web 2.0</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/Webcasting">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>webcasting</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InternetApplications/WorldWideWeb">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InternetApplications"/>
+    <gama:term_value>world wide web</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks/DigitalCommunity">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalNetworks"/>
+    <gama:term_value>digital community</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks/GPS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalNetworks"/>
+    <gama:term_value>GPS</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks/LocativeMedia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalNetworks"/>
+    <gama:term_value>locative media</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks/MobileCommunication">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalNetworks"/>
+    <gama:term_value>mobile communication</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks/OnlineWorld">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalNetworks"/>
+    <gama:term_value>online world</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks/P2P">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalNetworks"/>
+    <gama:term_value>P2P</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks/SocialSoftware">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalNetworks"/>
+    <gama:term_value>social software</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalNetworks/Wireless">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalNetworks"/>
+    <gama:term_value>wireless</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/ArtificialIntelligence">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>artificial intelligence</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/ArtificialLife">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>artificial life</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/AugmentedReality">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>augmented reality</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/Cybernetics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>cybernetics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/DataProcessing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>data processing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/HumanMachineInteraction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>human-machine interaction</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/Interface">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>interface</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/IT">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>IT</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/IntelligentSystems">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>intelligent systems</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/ImageRecognition">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>image recognition</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/InformationRetrieval">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>information retrieval</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/NetVisionNetExcellence">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>net vision / net excellence</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/Programming">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>programming  </gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/UbiquitousPervasiveComputing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>ubiquitous/pervasive computing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/IT/WearableComputing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/IT"/>
+    <gama:term_value>wearable computing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HardwareSoftware/Database">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HardwareSoftware"/>
+    <gama:term_value>database</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HardwareSoftware/Hardware">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HardwareSoftware"/>
+    <gama:term_value>hardware</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HardwareSoftware/Sensors">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HardwareSoftware"/>
+    <gama:term_value>sensors</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HardwareSoftware/Software">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HardwareSoftware"/>
+    <gama:term_value>software</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HardwareSoftware/Virus">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HardwareSoftware"/>
+    <gama:term_value>virus</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/ComputerGame">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>computer game</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Cyberculture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>cyberculture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Cyberfeminism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>cyberfeminism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Cyberspace">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>cyberspace</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Cyborg">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>cyborg</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/DigitalDivide">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>digital divide</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Digitising">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>digitising</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Hacking">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>hacking</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Hybridisation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>hybridisation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Hypertext">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>hypertext</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Interface">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>interface</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/MediaArchaeology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>media archaeology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/MetaCommentary">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>meta commentary</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Telepresence">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>telepresence</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/Transformation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>transformation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/DigitalCulture/VirtualReality">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/DigitalCulture"/>
+    <gama:term_value>virtual reality</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Architecture/Architecture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Architecture"/>
+    <gama:term_value>architecture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Architecture/City">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Architecture"/>
+    <gama:term_value>city</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Architecture/Landscape">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Architecture"/>
+    <gama:term_value>landscape</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Architecture/Metropolis">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Architecture"/>
+    <gama:term_value>metropolis</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Architecture/Rural">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Architecture"/>
+    <gama:term_value>rural</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Architecture/Urban">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Architecture"/>
+    <gama:term_value>urban</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Architecture/Urbanism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Architecture"/>
+    <gama:term_value>urbanism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Design/Design">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Design"/>
+    <gama:term_value>design</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Design/FashionDesign">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Design"/>
+    <gama:term_value>fashion design</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Design/GraphicDesign">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Design"/>
+    <gama:term_value>graphic design</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Design/InteriorDesign">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Design"/>
+    <gama:term_value>interior design</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Design/InterfaceDesign">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Design"/>
+    <gama:term_value>interface design</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Design/WebDesign">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Design"/>
+    <gama:term_value>web design</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Illiteracy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>illiteracy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Linguistics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>linguistics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Literature">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>literature</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Letter">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>letter</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Library">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>library</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Literacy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>literacy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Poetry">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>poetry</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Prose">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>prose</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Publishing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>publishing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Semiotics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>semiotics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Symbol">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>symbol</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Literature/Writing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Literature"/>
+    <gama:term_value>writing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/Authorship">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>authorship</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/Copyleft">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>copyleft</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/CreativeCommons">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>creative commons</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/Copyright">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>copyright</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/Distribution">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>distribution</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/ElectronicPublishing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>electronic publishing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/IntellectualProperty">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>intellectual property</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/OpenSource">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>open source</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/Piracy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>piracy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/AuthorshipRights/Plagiarism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/AuthorshipRights"/>
+    <gama:term_value>plagiarism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Narration/Communication">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Narration"/>
+    <gama:term_value>communication</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Narration/Dialogue">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Narration"/>
+    <gama:term_value>dialogue</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Narration/Language">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Narration"/>
+    <gama:term_value>language</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Narration/Monologue">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Narration"/>
+    <gama:term_value>monologue</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Narration/Narrative">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Narration"/>
+    <gama:term_value>narrative</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Narration/Speech">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Narration"/>
+    <gama:term_value>speech</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/CableTelevision">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>cable television</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/CellularTelephone">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>cellular telephone</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/GSMVideo">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>GSM video</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/Radio">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>radio</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/Recording">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>recording</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/SMS">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>SMS</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/Television">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>television</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/Telephone">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>telephone</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/Telecommunication">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>telecommunication</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/RTVAndPhone/Teleconferencing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/RTVAndPhone"/>
+    <gama:term_value>teleconferencing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Analogue">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>analogue</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Artificial">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>artificial</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Automation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>automation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Digital">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>digital</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Electronics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>electronics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Microelectronics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>microelectronics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Machine">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>machine</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Nanotechnology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>nanotechnology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Robotics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>robotics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Technology/Technophobia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Technology"/>
+    <gama:term_value>technophobia</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Aids">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>aids</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Alcoholism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>alcoholism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/DrugAddiction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>drug addiction</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Disease">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>disease</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Handicap">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>handicap</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Health">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>health</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Hospital">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>hospital</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Medicine">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>medicine</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Pain">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>pain</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Philantrophy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>philantrophy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Psychoanalysis">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>psychoanalysis</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Psychiatry">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>psychiatry</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Health/Schizophrenia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Health"/>
+    <gama:term_value>schizophrenia</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Mishap/Accident">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Mishap"/>
+    <gama:term_value>accident</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Mishap/Assault">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Mishap"/>
+    <gama:term_value>assault</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Mishap/Crime">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Mishap"/>
+    <gama:term_value>crime</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Mishap/Disaster">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Mishap"/>
+    <gama:term_value>disaster</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Mishap/Trauma">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Mishap"/>
+    <gama:term_value>trauma</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Mishap/Violence">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Mishap"/>
+    <gama:term_value>violence</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Tradition/Community">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Tradition"/>
+    <gama:term_value>community</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Tradition/Ethnicity">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Tradition"/>
+    <gama:term_value>ethnicity</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Tradition/Family">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Tradition"/>
+    <gama:term_value>family</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Tradition/Folklore">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Tradition"/>
+    <gama:term_value>folklore</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Tradition/Home">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Tradition"/>
+    <gama:term_value>home</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Tradition/Tradition">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Tradition"/>
+    <gama:term_value>tradition</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Religion/Apocalypse">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Religion"/>
+    <gama:term_value>apocalypse</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Religion/Miracle">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Religion"/>
+    <gama:term_value>miracle </gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Religion/Meditation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Religion"/>
+    <gama:term_value>meditation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Religion/Mysticism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Religion"/>
+    <gama:term_value>mysticism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Religion/Religion">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Religion"/>
+    <gama:term_value>religion</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights/Discrimination">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/EqualRights"/>
+    <gama:term_value>discrimination</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights/Exoticism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/EqualRights"/>
+    <gama:term_value>exoticism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights/Equality">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/EqualRights"/>
+    <gama:term_value>equality</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights/Minorities">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/EqualRights"/>
+    <gama:term_value>minorities</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights/Orientalism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/EqualRights"/>
+    <gama:term_value>orientalism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights/OtherThe">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/EqualRights"/>
+    <gama:term_value>other, the</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights/Race">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/EqualRights"/>
+    <gama:term_value>race</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/EqualRights/Racism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/EqualRights"/>
+    <gama:term_value>racism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics/Borders">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Geopolitics"/>
+    <gama:term_value>borders</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics/EastWest">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Geopolitics"/>
+    <gama:term_value>east / west</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics/Geopolitics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Geopolitics"/>
+    <gama:term_value>geopolitics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics/Migration">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Geopolitics"/>
+    <gama:term_value>migration</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics/Mobility">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Geopolitics"/>
+    <gama:term_value>mobility</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics/Nomadism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Geopolitics"/>
+    <gama:term_value>nomadism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics/NorthSouth">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Geopolitics"/>
+    <gama:term_value>north / south</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Geopolitics/ThirdWorld">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Geopolitics"/>
+    <gama:term_value>third world</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Eroticism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>eroticism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Feminism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>feminism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Gender">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>gender</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Homosexuality">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>homosexuality</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Identity">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>identity</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Pleasure">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>pleasure</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Pornography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>pornography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Sexuality">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>sexuality</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Sexuality/Voyeurism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Sexuality"/>
+    <gama:term_value>voyeurism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Beauty">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>beauty</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Desire">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>desire</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Expression">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>expression</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Fear">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>fear</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Happiness">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>happiness</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Humour">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>humour</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Inspiration">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>inspiration</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Irony">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>irony</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Emotions/Love">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Emotions"/>
+    <gama:term_value>love</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/EveryDayIssues">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>every day issues</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/Dreams">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>dreams</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/Game">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>game</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/Intimacy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>intimacy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/Lifestyle">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>lifestyle</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/Objectivity">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>objectivity</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/PersonalHistory">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>personal history</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/PresentDay">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>present day</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/Privacy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>privacy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PersonalIssues/Subjectivity">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PersonalIssues"/>
+    <gama:term_value>subjectivity</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Access">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>access</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Censorship">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>censorship</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Conspiracy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>conspiracy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Control">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>control</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Freedom">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>freedom</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/FreedomOfSpeach">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>freedom of speach</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Power">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>power </gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Propaganda">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>propaganda</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Security">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>security</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Control/Surveillance">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Control"/>
+    <gama:term_value>surveillance</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life/Adolescence">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Life"/>
+    <gama:term_value>adolescence </gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life/Birth">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Life"/>
+    <gama:term_value>birth</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life/Cloning">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Life"/>
+    <gama:term_value>cloning</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life/Death">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Life"/>
+    <gama:term_value>death</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life/Evolution">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Life"/>
+    <gama:term_value>evolution</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life/Euthanasia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Life"/>
+    <gama:term_value>euthanasia</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life/Life">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Life"/>
+    <gama:term_value>life</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Life/Youth">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Life"/>
+    <gama:term_value>youth</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Senses/Hearing">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Senses"/>
+    <gama:term_value>hearing</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Senses/Perception">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Senses"/>
+    <gama:term_value>perception</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Senses/Smell">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Senses"/>
+    <gama:term_value>smell</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Senses/Taste">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Senses"/>
+    <gama:term_value>taste</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Senses/Touch">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Senses"/>
+    <gama:term_value>touch</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Senses/Vision">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Senses"/>
+    <gama:term_value>vision</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Activism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>activism </gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Anarchy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>anarchy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Dictatorship">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>dictatorship</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Capitalism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>capitalism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Communism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>communism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Consumerism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>consumerism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Colonialism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>colonialism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Democracy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>democracy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Fascism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>fascism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Imperialism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>imperialism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Liberalism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>liberalism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/PoliticalMovement">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>political movement</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Nationalism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>nationalism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Nazism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>nazism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Radicalism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>radicalism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/ResistanceMovement">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>resistance movement</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Revisionism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>revisionism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Revolution">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>revolution</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/PoliticalMovement/Totalitarianism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/PoliticalMovement"/>
+    <gama:term_value>totalitarianism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/ColdWar">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>cold war</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/Exile">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>exile</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/GulfWar">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>gulf war</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/History">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>history</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/Holocaust">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>holocaust</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/Law">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>law</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/Military">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>military</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/NuclearWar">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>nuclear war</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/Peace">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>peace</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/War/War">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/War"/>
+    <gama:term_value>war</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Body">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>body</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Child">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>child</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Corporal">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>corporal</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Female">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>female</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Gesture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>gesture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Male">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>male</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Skin">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>skin</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Sensuality">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>sensuality</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Body/Sport">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Body"/>
+    <gama:term_value>sport</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Education/Archive">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Education"/>
+    <gama:term_value>archive</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Education/CulturalHeritage">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Education"/>
+    <gama:term_value>cultural heritage</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Education/Education">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Education"/>
+    <gama:term_value>education</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Education/Knowledge">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Education"/>
+    <gama:term_value>knowledge</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Education/KnowledgeManagement">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Education"/>
+    <gama:term_value>knowledge management</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Education/Memory">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Education"/>
+    <gama:term_value>memory</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Physics/Fractals">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Physics"/>
+    <gama:term_value>fractals</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Physics/PastFuture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Physics"/>
+    <gama:term_value>past / future</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Physics/Reality">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Physics"/>
+    <gama:term_value>reality</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Physics/Rotation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Physics"/>
+    <gama:term_value>rotation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Physics/Space">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Physics"/>
+    <gama:term_value>space</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Physics/Speed">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Physics"/>
+    <gama:term_value>speed</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Physics/Time">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Physics"/>
+    <gama:term_value>time</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Elements/Colour">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Elements"/>
+    <gama:term_value>colour</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Elements/Dark">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Elements"/>
+    <gama:term_value>dark</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Elements/Fire">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Elements"/>
+    <gama:term_value>fire</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Elements/Food">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Elements"/>
+    <gama:term_value>food</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Elements/Light">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Elements"/>
+    <gama:term_value>light</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Elements/Metal">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Elements"/>
+    <gama:term_value>metal</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Elements/Water">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Elements"/>
+    <gama:term_value>water</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Advertising">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>advertising</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Business">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>business</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Civilization">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>civilization</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/ECommerce">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>e-commerce</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Globalisation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>globalisation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Commercialisation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>commercialisation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Industry">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>industry</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Management">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>management</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Money">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>money</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Technocracy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>technocracy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Tourism">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>tourism</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/Commerce/Trade">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/Commerce"/>
+    <gama:term_value>trade</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/HumanRights">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>human rights</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/Humanitarian">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>humanitarian</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/Isolation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>isolation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/Philanthrophy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>philanthrophy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/Politics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>politics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/Poverty">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>poverty</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/Unemployment">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>unemployment</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/Wealth">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>wealth</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/SocialIssues/Work">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/SocialIssues"/>
+    <gama:term_value>work </gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/Alienation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>alienation</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/Immersion">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>immersion</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/Information">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>information</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/InformationSociety">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>information society</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/MassCommunication">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>mass communication</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/MassMedia">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>mass media</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/PopularCulture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>popular culture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/Spectatorship">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>spectatorship</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/Technoculture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>technoculture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/InformationSociety/Subculture">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/InformationSociety"/>
+    <gama:term_value>subculture</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Aesthetics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>aesthetics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Anthropology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>anthropology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Archaeology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>archaeology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/CulturalStudies">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>cultural studies</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Ethics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>ethics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Ethnography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>ethnography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Philosophy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>philosophy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Psychology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>psychology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Sociology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>sociology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/HumanSciences/Theory">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/HumanSciences"/>
+    <gama:term_value>theory</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Biology">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>biology</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Economy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>economy </gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Energy">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>energy</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Geography">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>geography</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Geometry">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>geometry</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Kinetics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>kinetics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Mathematics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>mathematics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Optics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>optics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Physics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>physics</gama:term_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/Term/NaturalSciences/Science">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/Term"/>
+    <gama:parent_term rdf:resource="http://gama-gateway.eu/schema/Term/NaturalSciences"/>
+    <gama:term_value>science</gama:term_value>
+  </rdf:Description>
+</rdf:RDF>

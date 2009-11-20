@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://gama-gateway.eu/schema/WorkType/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:gama="http://gama-gateway.eu/schema/" xmlns="http://gama-gateway.eu/schema/WorkType/">
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <rdfs:label xml:lang="en">Artwork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <rdfs:label xml:lang="en">Event</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <rdfs:label xml:lang="en">Resource</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/Animation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Animation</rdfs:label>
+    <rdfs:comment xml:lang="en">Refers to the process of making still images appear to move, particularly by the technique of photographing drawings or objects in progressive stages of performing an action, so that movement is simulated when the images are projected as a series in quick succession.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/ArtistsBook">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Artists' book</rdfs:label>
+    <rdfs:comment xml:lang="en">Books, whether unique or multiple, made or conceived by artists. Includes books produced by artists as a commercial publishing venture with a printer or publisher, usually in traditional book form in limited editions, as well as those formed or arranged so as to reflect or comment upon the artists' aesthetic or political program.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/ComputerGraphics">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Computer Graphics</rdfs:label>
+    <rdfs:comment xml:lang="en">Use generally for computer processing in which the output is in pictorial form.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/Dance">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Dance</rdfs:label>
+    <rdfs:comment xml:lang="en">A dance performance, whether or not specifically choreographed for the medium of video, film or computer.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/Documentary">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Documentary</rdfs:label>
+    <rdfs:comment xml:lang="en">Presentations, usually in the form of visual resources or sound recordings, based on or re-creating actual events, eras, life stories, or other factual information in a manner purporting to be objective and accurate.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/Fiction">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Fiction</rdfs:label>
+    <rdfs:comment xml:lang="en">A work wherein the content is primarily composed of fictional elements.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/FilmArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Film Art</rdfs:label>
+    <rdfs:comment xml:lang="en">(should cover all artworks using the medium of film)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/HybridArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Hybrid Art</rdfs:label>
+    <rdfs:comment xml:lang="en">The “Hybrid Art” category is dedicated specifically to today’s hybrid and transdisciplinary projects and approaches to media art. Primary emphasis is on the process of fusing different media and genres into new forms of artistic expression as well as the act of transcending the boundaries between art and research, art and social/political activism, art and pop culture.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/InstallationArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Installation Art</rdfs:label>
+    <rdfs:comment xml:lang="en">Works dating from the 1960s that use their exhibition space as part of their design. Demanding a viewer's active engagement, installations are often created by artists in direct opposition to the notion of permanent artwork, or art as a commodity.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/InteractiveArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Interactive Art</rdfs:label>
+    <rdfs:comment xml:lang="en">Describes works that depend upon the interaction of the viewer for complete expression. This term generally refers to works in which computers or other technology have a role. </rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/Music">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Music</rdfs:label>
+    <rdfs:comment xml:lang="en">The art concerned with the combining of vocal or instrumental sounds in measured time to communicate emotions, ideas, or states of mind, usually according to cultural standards of rhythm, melody, and, in most Western music, harmony.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/NetworkArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Network Art</rdfs:label>
+    <rdfs:comment xml:lang="en">A work that uses the internet, the world wide web, or computer networks as one of its main elements or as its most important subject matter.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/PerformanceArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Performance Art</rdfs:label>
+    <rdfs:comment xml:lang="en">Refers to works of art that unfold over time and that combine elements of theater and object-oriented art.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/Portrait">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Portrait</rdfs:label>
+    <rdfs:comment xml:lang="en">A work which mainly deals with the representation or portraiture of an individual, emphasizing his/her interesting and essential characteristics.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/SoftwareArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Software Art</rdfs:label>
+    <rdfs:comment xml:lang="en">Software art refers to works of art where the creation of software, or concepts from software, play an important role.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/SoundArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Sound Art</rdfs:label>
+    <rdfs:comment xml:lang="en">Works that incorporate sound but are associated with the visual arts rather than the performing arts.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/TelevisionArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Television Art</rdfs:label>
+    <rdfs:comment xml:lang="en">A work which is created for broadcast on television and/or comments and reflects upon television as a medium, it specific context, content and visual language.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Artwork/VideoArt">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Artwork"/>
+    <rdfs:label xml:lang="en">Video Art</rdfs:label>
+    <rdfs:comment xml:lang="en">Works of art that employ video technology, especially videotapes. </rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Concert">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Concert</rdfs:label>
+    <rdfs:comment xml:lang="en">A public, musical or audio performance.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Conference">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Conference</rdfs:label>
+    <rdfs:comment xml:lang="en">A meeting intended to discuss and present information on a particular (set of) topics, for the purpose of information exchange and networking.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Discussion">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Discussion</rdfs:label>
+    <rdfs:comment xml:lang="en">When people talk about something and tell each other their ideas or opinions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Exhibition">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Exhibition</rdfs:label>
+    <rdfs:comment xml:lang="en">An event, usually taking place during several days or weeks, in which Organized displays, especially of works of art or objects of human making.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Festival">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Festival</rdfs:label>
+    <rdfs:comment xml:lang="en">An event which usually takes place over a period of several days or weeks, and which constitutes of a variety of activities and presentations, often including an exhibition and a symposium.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Performance">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Performance</rdfs:label>
+    <rdfs:comment xml:lang="en">An event that has a strong performative character, often taking place in a live setting, unfolding over time and combining elements of theater and/or referring to the tradition of performance art.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Presentation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Presentation</rdfs:label>
+    <rdfs:comment xml:lang="en">An event where an artist or a lecturer provides an explanation of a certain topic for an audience. </rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Project">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Project</rdfs:label>
+    <rdfs:comment xml:lang="en">Use generally for proposed undertakings or creations, including the creation of works of art or architecture, or for the actual carrying out of such proposals. &#13;
+LBI examle: 'Project' describes artists works that are realised as processes more than they have any result. We will use this term also for research projects. &#13;
+Monte example: artist in residence project (...) Development period of a piece of software Research project, e.g.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Screening">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Screening</rdfs:label>
+    <rdfs:comment xml:lang="en">An event which consists of the public presentation of one or more moving image works (film or video works).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Seminar">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Seminar</rdfs:label>
+    <rdfs:comment xml:lang="en">An occasion when a teacher or expert and a group of people meet to study and discuss something</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Event/Workshop">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Event"/>
+    <rdfs:label xml:lang="en">Workshop</rdfs:label>
+    <rdfs:comment xml:lang="en">A relatively small instructional session or class, emphasizing demonstration and practical application of skills and principles.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Article">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Article</rdfs:label>
+    <rdfs:comment xml:lang="en">A document, usually constituting mainly of text, prepared for publication as an independent portion of a magazine, newspaper, encyclopedia, or other work.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Book">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Book</rdfs:label>
+    <rdfs:comment xml:lang="en">A printed volume.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Broadcast">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Broadcast</rdfs:label>
+    <rdfs:comment xml:lang="en">A piece of documentation which was (intended to be) broadcast via a mass medium (radio or television) or the internet (podcast, streaming media)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Catalogue">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Catalogue</rdfs:label>
+    <rdfs:comment xml:lang="en">Used for books and other paper publications that provide an overview of an event – usually an exhibition or a festival.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Correspondence">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+    <rdfs:comment xml:lang="en">Any forms of addressed and written communication sent and received, including letters, postcards, memorandums, notes, telegrams, or cables.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Document">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Document</rdfs:label>
+    <rdfs:comment xml:lang="en">Refers especially to recorded information regardless of medium or characteristics, whether created specifically as records of information or used as such at some time subsequent to their creation. In its broadest sense, however, can include any item amenable to cataloging and indexing, that is, not only written and printed materials in paper or microform versions but also nonprint media and, in some circumstances, three-dimensional objects or realia.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Documentation">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Documentation</rdfs:label>
+    <rdfs:comment xml:lang="en">A piece of documentation which is a recording of a live event, theater piece or performance, or of an installed object or artwork.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Ephemera">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Ephemera</rdfs:label>
+    <rdfs:comment xml:lang="en">Items manufactured for a specific, limited use, and usually intended to be discarded thereafter.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Essay">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Essay</rdfs:label>
+    <rdfs:comment xml:lang="en">A work which displays a (personally coloured) treatment of a specific subject.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Interview">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Interview</rdfs:label>
+    <rdfs:comment xml:lang="en">Statements, transcripts, or recordings of conversations in which one person obtains information from another such as for research purposes, publication, or broadcast.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/JuryStatement">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Jury statement</rdfs:label>
+    <rdfs:comment xml:lang="en">Statement made by a group of people chosen to decide the winner of a competition.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Periodical">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Periodical</rdfs:label>
+    <rdfs:comment xml:lang="en">A publication issued in a series, with (usually regular) intervals.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/PressRelease">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Press release</rdfs:label>
+    <rdfs:comment xml:lang="en">A public statement given to the press to publish if they wish.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Report">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Report</rdfs:label>
+    <rdfs:comment xml:lang="en">Documents containing presentations of facts or the record of some proceeding, investigation, or event.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/SubmissionForm">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Submission form</rdfs:label>
+    <rdfs:comment xml:lang="en">Something submitted for the judgment of others (as in a competition).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://gama-gateway.eu/schema/WorkType/Resource/Thesis">
+    <rdf:type rdf:resource="http://gama-gateway.eu/schema/WorkType"/>
+    <gama:parent_worktype rdf:resource="http://gama-gateway.eu/schema/WorkType/Resource"/>
+    <rdfs:label xml:lang="en">Thesis</rdfs:label>
+    <rdfs:comment xml:lang="en">Discourses advancing an original point of view as a result of research, especially as a requirement for an academic degree.</rdfs:comment>
+  </rdf:Description>
+</rdf:RDF>
