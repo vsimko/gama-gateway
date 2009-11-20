@@ -6,11 +6,14 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xml:base="http://gama-gateway.eu/cache/">
+	xml:base="http://gama-gateway.eu/cache/">
 
-  <rdfs:Datatype rdf:about="http://gama-gateway.eu/schema/binary">
-    <rdfs:comment>GAMA-specific datatype which implies the BLOB datatype without any index inside the repository.</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdfs:Datatype>
+	<rdfs:Datatype rdf:about="http://gama-gateway.eu/schema/binary">
+		<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+		<rdfs:comment>
+			GAMA-specific datatype which implies the BLOB datatype without
+			any index inside the repository.
+		</rdfs:comment>
+	</rdfs:Datatype>
 
 </rdf:RDF>

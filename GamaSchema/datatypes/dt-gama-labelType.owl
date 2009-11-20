@@ -6,29 +6,36 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xml:base="http://gama-gateway.eu/cache/">
+	xml:base="http://gama-gateway.eu/cache/">
 
-  <rdfs:Datatype rdf:about="http://gama-gateway.eu/schema/labelType">
-    <rdfs:comment>GAMA-specific datatype suitable for names and titles. Supports different values for sorting and display.
-&lt;table border="1"&gt;
-&lt;tr BGCOLOR="#CCCCFF"&gt;&lt;th&gt;Literal&lt;/th&gt;&lt;th&gt;sorting&lt;/th&gt;&lt;th&gt;display&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;Woody Vasulka&lt;/td&gt;
-  &lt;td&gt;Woody Vasulka&lt;/td&gt;
-  &lt;td&gt;Woody Vasulka&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;Woody Vasulka [Vasulka Woody]&lt;/td&gt;
-  &lt;td&gt;Vasulka Woody&lt;/td&gt;
-  &lt;td&gt;Woody Vasulka&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;[Vasulka Woody] Woody Vasulka&lt;/td&gt;
-  &lt;td&gt;Vasulka Woody&lt;/td&gt;
-  &lt;td&gt;Woody Vasulka&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdfs:Datatype>
+	<rdfs:Datatype rdf:about="http://gama-gateway.eu/schema/labelType">
+		<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	    <rdfs:comment>
+	    	GAMA-specific datatype suitable for names and titles.
+	    	Supports different values for sorting and display.
+	
+			&lt;table border="1"&gt;
+			&lt;tr BGCOLOR="#CCCCFF"&gt;
+			&lt;th&gt;Literal&lt;/th&gt;
+			&lt;th&gt;sorting&lt;/th&gt;
+			&lt;th&gt;display&lt;/th&gt;&lt;/tr&gt;
+			&lt;tr&gt;
+			  &lt;td&gt;Woody Vasulka&lt;/td&gt;
+			  &lt;td&gt;Woody Vasulka&lt;/td&gt;
+			  &lt;td&gt;Woody Vasulka&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			  &lt;td&gt;Woody Vasulka [Vasulka Woody]&lt;/td&gt;
+			  &lt;td&gt;Vasulka Woody&lt;/td&gt;
+			  &lt;td&gt;Woody Vasulka&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+			  &lt;td&gt;[Vasulka Woody] Woody Vasulka&lt;/td&gt;
+			  &lt;td&gt;Vasulka Woody&lt;/td&gt;
+			  &lt;td&gt;Woody Vasulka&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;/table&gt;
+		</rdfs:comment>
+	</rdfs:Datatype>
 
 </rdf:RDF>
