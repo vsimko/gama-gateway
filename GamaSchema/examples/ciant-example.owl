@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xml:base="gama:ciant:test:"
+    xmlns="gama:ciant:test:"
+    xmlns:gama="http://gama-gateway.eu/schema/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    >
+    
+	<gama:Archive rdf:about="gama:ciant:test">
+		<gama:archive_name>Testing archive from CIANT [CIANT]</gama:archive_name>
+		<gama:archive_homepage>http://research.ciant.cz/gama/</gama:archive_homepage>
+		<gama:owned_by rdf:resource="http://www.ciant.cz"/>
+	</gama:Archive>
+	
+	<gama:Collection rdf:about="gama:ciant:test:MocapPerformances">
+		<gama:collection_title>MOCAP-based performances</gama:collection_title>
+		<gama:collection_description>Performances produced by CIANT where the MOCAP device was used.</gama:collection_description>
+		<gama:contains_work rdf:resource="gama:ciant:test:Work:Virus"/>
+		<gama:contains_work rdf:resource="gama:ciant:test:Work:Golem"/>
+	</gama:Collection>
+	
+	<!-- ============================= CIANT Events ================================ -->
+	<gama:Work rdf:about="gama:ciant:test:Work:EnterMultimediale1">
+		<gama:work_title>Enter Multimediale</gama:work_title>
+		<gama:work_country rdf:resource="http://gama-gateway.eu/schema/Country/CZ"/>
+		<gama:organised_by rdf:resource="http://www.ciant.cz"/>
+		<gama:work_right>Public domain</gama:work_right>
+		<gama:related_work rdf:resource="gama:ciant:test:Work:EnterMultimediale2"/>
+		<gama:provided_by rdf:resource="gama:ciant:test"/>
+		<gama:has_curator rdf:resource="gama:ciant:test:Person:PavelSedlak"/>
+	</gama:Work>
+	
+	<gama:Work rdf:about="gama:ciant:test:Work:EnterMultimediale2">
+		<gama:work_title>Enter Multimediale 2</gama:work_title>
+		<gama:work_description xml:lang="cs">
+			Mezinárodní festival mapující hraniční oblasti, kde se umělecká tvorba
+			prolíná s novými informačními a komunikačními technologiemi.
+			
+			Na festivalu se představili autoři interaktivních instalací, tanečníci,
+			performeři a hudebníci využívající pokročilé technologie,
+			experimentátoři s pohyblivým obrazem i teoretici z řad filozofů a
+			historiků umění. V atmosféře propojování disciplín, lidí a strojů se
+			odehrála řada výjimečných setkání.
+
+			Instalace a projekce vybrané mezinárodním týmem teoretiků a umělců byly
+			vystaveny či promítány v Paláci Akropolis, v Památníku Vítkov na
+			Žižkovské televizní věži a ve Francouzském institutu.
+		</gama:work_description>
+		<gama:event_location xml:lang="en">Vítkov, Žižkov TV tower, Palce Akropolis, French institute</gama:event_location>
+		<gama:event_location xml:lang="cs">Památník Vítkov, Žižkovská TV věž, Palác Akropolis, Francouzský institut</gama:event_location>
+		<gama:work_country rdf:resource="http://gama-gateway.eu/schema/Country/CZ"/>
+		<gama:organised_by rdf:resource="http://www.ciant.cz"/>
+		<gama:organised_by rdf:resource="http://www.palacakropolis.cz"/>
+		<gama:provided_by rdf:resource="gama:ciant:test"/>
+		<gama:has_curator rdf:resource="gama:ciant:test:Person:PavelSedlak"/>
+		<gama:related_work rdf:resource="gama:ciant:test:Work:EnterMultimediale1"/>
+		<gama:presentation_date></gama:presentation_date>
+	</gama:Work>
+	
+	<gama:Work rdf:about="gama:ciant:test:Work:Virus">
+		<gama:work_title>VIRUS Performance [VIRUS]</gama:work_title>
+		<gama:work_title xml:lang="cs">Představení VIRUS [VIRUS]</gama:work_title>
+		<gama:work_created>2004 .. 2005</gama:work_created>
+		<gama:work_description>
+			V.I.R.U.S. (Virtual, Intelligent, Robotic, Unbreakable, and Space) is a
+			multimedia dance performance that premiered at EnterMultimediale2
+			festival in Prague in 2005. It is a result of international
+			collaborative effort of two dozens of artists, programmers and
+			technical assistants that created a unique mixture of new media art,
+			contemporary performing art and state of the art technology. The human
+			element in the performance is represented by two dancers that are
+			moving in a variable space delimited by laser rays. Motion-capture
+			device transfers the movement of the dancer from the real space into
+			the virtual one, which is projected on three giant screens hanging
+			above the stage. The virtual space geometrically mimics the real stage
+			but also introduces artificial objects that the dancer interacts with
+			and that do not exist on the real stage. Music and sound is mainly
+			prerecorded, but some parts are generated in real time according to the
+			dancer’s gestures. 
+		</gama:work_description>
+		<gama:work_description xml:lang="cs">
+			Představení vzniklo s podporou Evropské unie v rámci programu KULTURA
+			2000, Ministerstva kultury České republiky a Magistrátu hlavního města
+			Prahy.
+		
+			Tanečnice a tanečník se pohybují v proměnlivém teritoriu vymezeném laserovými
+			paprsky a speciálním systémem snímání pohybu (Motion Capture), který
+			fyzickou realitu přenáší do reality virtuální. Příběh se odehrává v
+			několika rovinách a v několika realitách. Téma viru neodkazuje pouze k
+			přenosu nejrůznějších procesů mezi lidmi navzájem či mezi lidmi a
+			stroji. V.I.R.U.S. je také anglický akronym složený z těchto klíčových
+			slov: Virtuální, Inteligentní, Robotický, Nerozbitný a Prostor.
+			Představení tematizuje propojování nejrůznějších prostorů, pronikání
+			člověka a robotické inteligence do míst, kde se hranice kontroly těla a
+			vnímání stávají nejasné.
+		
+			V.I.R.U.S. jako jedno z vůbec prvních představení spojuje současný tanec a herní
+			technologie. Zatímco práce s nejrůznějšími (kamerovými, magnetickými)
+			systémy snímání pohybu již začíná být poměrně běžným jevem i v
+			jevištním umění, pronikání zcela současných vizualizačních technologií
+			spojených s počítačovými hrami do oblasti divadla a tance je pilotním
+			počinem.
+		
+			Představení je výsledkem spolupráce partnerských organizací: CIANT, CICV, KIBLA,
+			LIBAT, Ballet Preljocaj a Akademie výtvarných umění v Aix-en-Provence a
+			v Metz.
+		</gama:work_description>
+		<gama:work_right>Public domain</gama:work_right>
+		<gama:work_country rdf:resource="http://gama-gateway.eu/schema/Country/CZ"/>
+		<gama:provided_by rdf:resource="gama:ciant:test"/>
+		<gama:has_curator rdf:resource="gama:ciant:test:Person:PavelSedlak"/>
+		<gama:has_creator rdf:resource="gama:ciant:test:Person:PavelSmetana"/>
+	</gama:Work>
+		
+	<!-- ============================= Persons =================================== -->
+	<gama:Person rdf:about="http://www.palacakropolis.cz">
+		<gama:person_name>Palace Akropolis</gama:person_name>
+		<gama:person_name xml:lang="cs">Palác Akropolis</gama:person_name>
+		<gama:biography xml:lang="cs">
+			Centrum nezávislé kultury, které nabízí ojedinělé hudební, divadelní a
+			výtvarné projekty.
+		
+			Od svého vzniku se v prostorách Paláce Akropolis neustále představují
+			tuzemští interpreti i zahraniční špičky mnoha žánrů hudební a divadelní
+			scény.
+		
+			Pestrý program plný mnoha zvučných jmen doplňují i méně známí či začínající
+			umělci. Ročně se zde uskuteční cca 950 kulturních akcí.
+			Ocenění
+		
+			* Nejoblíbenější klub (Gallupův ústav, 2001)
+			* Čtvrtý nejoblíbenější koncertní sál (Gallupův ústav, 2001)
+			* Interiér roku – František Skála a David Vávra	(Grand Prix Obce architektů, 1996)
+			* The Best Rock Club (The Prague Post, 1999)
+			* The Best of Prague (Cena internetového magazínu prague.tv, 2003)
+		</gama:biography>
+		<gama:life_span>1927 .. *</gama:life_span>
+		<gama:person_country rdf:resource="http://gama-gateway.eu/schema/Country/CZ"/>
+		<gama:person_image>http://www.palacakropolis.cz/images/pages/akropolis-outdoor.jpg</gama:person_image>
+		<gama:person_image>http://www.palacakropolis.cz/images/pages/interiery/interiery-40-vs-m.jpg</gama:person_image>
+		<gama:person_image>http://www.palacakropolis.cz/images/pages/interiery/interiery-47-vs-nadra-m.jpg</gama:person_image>
+	</gama:Person>
+	
+	<gama:Person rdf:about="http://www.ciant.cz">
+		<gama:person_name>[CIANT] CIANT - International centre for art and new technologies</gama:person_name>
+		<gama:person_name xml:lang="cs">[CIANT] CIANT - Mezinárodní centrum pro umění a nové technologie</gama:person_name>
+		<gama:biography>
+			CIANT has been active since 1998 at the international level in the
+			field of culture, education and research related to new technologies.
+		
+			CIANT is an independent non-profit organisation that initiates and
+			supports partnerships with individuals as well as institutions having a
+			background intersecting art, science and technology.
+		
+			CIANT operates an art laboratory focused on the innovative experiments with
+			and development of interactive media. We produce and co-produce
+			artistic projects, co-ordinate residencies for artists and participate
+			in the promotion of new media art and culture - we organise festivals,
+			workshops and conferences.
+		
+			CIANT stimulates networking and participation in public debates while
+			promoting interdisciplinary approach in the field of artistic and
+			research creativity as well as technological innovation.
+		</gama:biography>
+		<gama:biography xml:lang="cs">
+			CIANT je nevládní nezisková organizace založená v roce 1998. Působí na
+			lokální a mezinárodní úrovni v kulturní, vzdělávací a výzkumné oblasti
+			spojené s novými technologiemi. Hlavní činnosti: výzkum/produkce,
+			podpora vzniku nových uměleckých děl, mezinárodní tvůrčí dílny,
+			umělecké rezidence, festival, galerie, dokumentace/teorie,
+			vzdělávání.
+		</gama:biography>
+		<gama:person_url>http://www.ciant.cz</gama:person_url>
+		<gama:person_country rdf:resource="http://gama-gateway.eu/schema/Country/CZ"/>
+		<gama:person_image>http://www.ciant.cz/web.gfx/logo.2.gif</gama:person_image>
+		<gama:life_span>1998 .. * CIANT has been active since 1998</gama:life_span>
+	</gama:Person>
+	
+	<gama:Person rdf:about="gama:ciant:test:Person:Ivor">
+		<gama:person_name>Ivor Diosi [Diosi, Ivor]</gama:person_name>
+		<gama:biography>
+			Ivor majored in information security, and wandered through courses on
+			information systems management, philosophy and cinema history. He has
+			been exhibiting since 1999 and received several awards and recognitions
+			at international new media art festivals (ACA Tokyo, Vida 4.0, ZKM
+			Constructed Life, and Transmediale 2004). Currently, he is an
+			artist-in-residence at CIANT (International Centre for Art and New
+			Technologies). He is best known for his game engine modifications, and
+			has worked with virtual reality, artificial life and human interface
+			design to produce art, which in his words “strives to be detached from
+			socially conditioned perception and simian legacy, as much as possible,
+			and focus on what really matters: the human being as autonomous
+			conscience in the unvoid”.
+		</gama:biography>
+		<gama:member_of rdf:resource="http://www.ciant.cz"/>
+		<gama:person_country rdf:resource="http://gama-gateway.eu/schema/Country/SK"/>
+		<gama:person_image>http://www.ciant.cz/web.pix/nm.Diosi2.jpg</gama:person_image>
+		<gama:person_url>http://www.ciant.cz/node.php?nid=35</gama:person_url>
+		<gama:life_span>1973 .. *</gama:life_span>
+	</gama:Person>
+
+	<gama:Person rdf:about="gama:ciant:test:Person:PavelSedlak">
+		<gama:person_name>[Sedlak, Pavel] Pavel Sedlák</gama:person_name>
+		<gama:biography xml:lang="cs">
+			Pavel Sedlák působí v Mezinárodním centru pro umění a nové technologie
+			v Praze (CIANT), byl hlavním kurátorem festivalu ENTERmultimediale2,
+			podílí se na přípravě a realizaci uměleckých, kulturních a vzdělávacích
+			projektů v oblasti nových médií, je aktivní jako kritik a kurátor.
+			Překládá a publikuje o umění, kultuře a filozofii v souvislostech
+			nových technologií. Po studijních pobytech v Centru pro umění a média
+			(ZKM) v Karlsruhe a stáži v oddělení nových médií Sbírky moderního a
+			současného umění Národní galerie v Praze, působil v Centru pro studium
+			vědy, techniky a společnosti pri Filozofickém ústavu Akademie věd čR. V
+			poslední době byl členem pracovní skupiny primátora hlavního města
+			Prahy pro vytvoření koncepce kulturní politiky hlavního města Prahy,
+			členem poroty festivalu CYNETart_06, vystoupil se zvaným příspěvkem na
+			40tém kongresu Mezinárodní asociace uměleckých kritiků (AICA). V roce
+			2006 spoluzaložil C2C – kruh kurátorů a kritiků provozující pražskou
+			galerii zaměřenou na mezioborové projekty.
+		</gama:biography>
+		<gama:biography xml:lang="en">
+			Pavel Sedlák is the Deputy Director of CIANT - International Centre
+			for Art and Technologies, in charge of development and documentation.
+			He is active as an art critic and a curator. He initiated several
+			European cultural activities and projects. He was the chief curator of
+			the ENTERmultimediale2 festival of digital art held in Prague in May
+			2005. He publishes in the field of new media art and culture. After his
+			residencies at the ZKM - Center for Art and Media in Karlsruhe and the
+			internship at New Media Dept. of the National Gallery in Prague he
+			worked at the Centre for Science, Technology, Society Studies of the
+			Institute of Philosophy of the Czech Academy of Sciences. Recently, he
+			was a member of the Prague Mayor's Committee on the city cultural
+			strategy, a jury member of the CYNETart_06 festival held in Dresden,
+			and an invited speaker at the 40th congress of AICA (International
+			Association of Art Critics). In 2006 he co-founded C2C – Circle of
+			Curators &amp; Critics which runs a Prague-based gallery focusing on interdisciplinary projects. 
+		</gama:biography>
+		<gama:life_span>1977 .. *</gama:life_span>
+		<gama:member_of rdf:resource="http://www.ciant.cz"/>
+		<gama:person_country rdf:resource="http://gama-gateway.eu/schema/Country/CZ"/>
+		<gama:person_image>http://www.ciant.cz/web.pix/nm.Sedlak_Ath.jpg</gama:person_image>
+		<gama:person_url>http://www.ciant.cz/node.pix.php?nid=15</gama:person_url>
+	</gama:Person>
+</rdf:RDF>
