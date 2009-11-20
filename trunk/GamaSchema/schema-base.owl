@@ -495,5 +495,3 @@ Work titles can be translated to various languages.</rdfs:comment>
     <rdfs:domain rdf:resource="http://gama-gateway.eu/schema/Work"/>
   </owl:SymmetricProperty>
 </rdf:RDF>
-
-<!-- Created with TopBraid Composer -->
