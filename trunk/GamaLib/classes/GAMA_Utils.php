@@ -270,7 +270,7 @@ abstract class GAMA_Utils
 	 */
 	static public function getBugReportEmailsByUri($uri)
 	{
-		return array('viliam.simko@ciant.cz');
+		return array();
 	}
 	
 	/**
