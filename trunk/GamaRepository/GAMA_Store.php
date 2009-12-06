@@ -148,6 +148,23 @@ class GAMA_Store
 	//===============================================================
 	
 	/**
+	 * @return array
+	 */
+	final static public function getAllDatatypeUris()
+	{
+		$uris = array();
+		$dirWithDatatypes = 'plugins/datatypes';
+		foreach( glob( $dirWithDatatypes.'/DT_*.php' ) as $fname )
+		{
+			$classname = substr(basename($fname), 0, -4);
+			$uris[] = call_user_func( array($classname, 'getUri') );
+		}
+		
+		return $uris;
+	}
+	
+	
+	/**
 	 * Rebuilds database tables of the repostiory
 	 * and creates some important axioms.
 	 */
@@ -324,7 +341,7 @@ class GAMA_Store
 		//   http://www.w3.org/TR/xmlschema-2/#built-in-datatypes
 		// =====================================================================
 		$xsdDatatypeId = $mapUriToId['http://www.w3.org/2000/01/rdf-schema#Datatype'];
-		foreach(GAMA_Datatype::getAllDatatypeUris() as $datatypeUri)
+		foreach(self::getAllDatatypeUris() as $datatypeUri)
 		{
 			$this->sql('
 				insert into RESOURCE (id, type, uri)
