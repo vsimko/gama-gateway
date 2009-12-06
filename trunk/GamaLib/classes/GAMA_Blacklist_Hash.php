@@ -68,8 +68,15 @@ class GAMA_Blacklist_Hash
 			return false;
 		}
 		
+		$listOfFiles = glob($this->getBlacklistFilePattern());
+		if(empty($listOfFiles))
+			return true;
+		
+		assert('is_array($listOfFiles)');
+		assert('!empty($listOfFiles)');
+		
 		$maxmtime = 0;
-		foreach(glob($this->getBlacklistFilePattern()) as $filename)
+		foreach( $listOfFiles as $filename)
 		{
 			$maxmtime = max($maxmtime, filemtime($filename));
 		}
@@ -127,7 +134,16 @@ class GAMA_Blacklist_Hash
 		$this->hash = array();
 		
 		// loading uris from all blacklist files
-		foreach(glob($this->getBlacklistFilePattern()) as $filename)
+		$listOfFiles = glob($this->getBlacklistFilePattern());
+
+		// nothing to do if there are no blcklists
+		if(empty($listOfFiles))
+			return;
+		
+		assert('is_array($listOfFiles)');
+		assert('!empty($listOfFiles)');
+			
+		foreach( $listOfFiles  as $filename)
 		{
 			echo "Loading URIs from file: $filename\n";
 			
