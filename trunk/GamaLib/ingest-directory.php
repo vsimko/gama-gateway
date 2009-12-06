@@ -2,7 +2,7 @@
 <?php
 
 // ====================================================================
-// Example: http://research.ciant.cz/gama/GamaRepository/';
+// Example: http://url/of/your/gama/GamaRepository/';
 $DEF_REPOSITORY_LOCATION	= '';
 $DEF_DIR					= '.';
 
