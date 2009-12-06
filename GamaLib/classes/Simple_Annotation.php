@@ -114,8 +114,18 @@ class Simple_Annotation
 	 */
 	static public function createFromPropertyComment($class, $property)
 	{
-		$reflect = new ReflectionProperty($class, $property);
-		return new Simple_Annotation($reflect->getDocComment());
+		try
+		{
+			$reflect = new ReflectionProperty($class, $property);
+			return new Simple_Annotation($reflect->getDocComment());
+		} catch(Exception $e)
+		{
+			// an exception is thrown if the property is private
+			// in order to disable such a property, we need to set the @noparam
+			// anntotation for it
+			// @see RPC_Service::getSignature()
+			return new Simple_Annotation('@noparam');
+		}
 	}
 	
 	/**
