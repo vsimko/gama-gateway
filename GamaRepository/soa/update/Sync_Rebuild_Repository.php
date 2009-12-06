@@ -109,11 +109,11 @@ class Sync_Rebuild_Repository extends RPC_Service
 		if($this->keepItReal)
 		{
 			$srcfiles = array_merge(
-				glob($this->ingestDir.'/schema/*'),
-				glob($this->ingestDir.'/vocabulary/*'),
-				glob($this->ingestDir.'/harmonisation/*'),
-				glob($this->ingestDir.'/dba/*'),
-				glob($this->ingestDir.'/indexing/*')
+				(array) glob($this->ingestDir.'/schema/*'),
+				(array) glob($this->ingestDir.'/vocabulary/*'),
+				(array) glob($this->ingestDir.'/harmonisation/*'),
+				(array) glob($this->ingestDir.'/dba/*'),
+				(array) glob($this->ingestDir.'/indexing/*')
 				);
 			
 			foreach($srcfiles as $filename)
@@ -139,7 +139,7 @@ class Sync_Rebuild_Repository extends RPC_Service
 		echo "\nLoading similarities (just be patient)...\n";
 		if($this->keepItReal)
 		{
-			foreach(glob($this->ingestDir.'/similarities/*') as $filename)
+			foreach( (array) glob($this->ingestDir.'/similarities/*') as $filename)
 			{
 				$file = array(
 					'name' => $filename,
