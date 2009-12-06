@@ -86,23 +86,7 @@ abstract class GAMA_Datatype
 		
 		return $instance;
 	}
-	
-	/**
-	 * @return array
-	 */
-	final static public function getAllDatatypeUris()
-	{
-		$uris = array();
-		$dirWithDatatypes = dirname(__FILE__).'/../datatypes';
-		foreach( glob( $dirWithDatatypes.'/DT_*.php' ) as $fname )
-		{
-			$classname = substr(basename($fname), 0, -4);
-			$uris[] = call_user_func( array($classname, 'getUri') );
-		}
 		
-		return $uris;
-	}
-	
 	// =========================================================================	
 	
 	/**
