@@ -10,7 +10,7 @@ class Visualise_Repository_Schema extends RPC_Service
 	 */
 	public function execute()
 	{
-		$GRAPH_FNAME = '/tmp/gama.graph';
+		$GRAPH_FNAME = tempnam(GAMA_Utils::getSystemTempDir(), 'gama-schema-graph');
 		$PNG_FNAME = "$GRAPH_FNAME.png";
 
 		$fh = fopen($GRAPH_FNAME, 'w');
@@ -105,11 +105,20 @@ class Visualise_Repository_Schema extends RPC_Service
 		fwrite($fh, "}\n");
 		fclose($fh);
 		
+		// we use the dot tool from the graphviz package to generate the PNG file
 		exec('dot -Tpng -o '.escapeshellarg($PNG_FNAME).' '.escapeshellarg($GRAPH_FNAME));
-		
+
+		// now the temporary dot file can be removed
+		unlink($GRAPH_FNAME);
+
 		@header("Cache-Control: cache, must-revalidate");
 		@header("Content-type: image/png");
 		$fh = fopen($PNG_FNAME, 'r');
+		
+		// temporary PNG file will be removed automatically after the fclose() call
+		// this behaviour may differ on windows
+		unlink($PNG_FNAME);
+
 		while(!feof($fh))
 		{
 			echo fread($fh, 65536);
