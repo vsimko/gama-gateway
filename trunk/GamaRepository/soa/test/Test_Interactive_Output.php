@@ -1,6 +1,11 @@
 <?php
 /**
- * The output should be displayed progressively line by line 10 times.
+ * The output should be displayed progressively.
+ * If you just see the output rendered instantly after 10 seconds, you should
+ * update your php.ini configuration by changing the paramter
+ * 
+ * output_buffering = Off
+ * 
  */
 class Test_Interactive_Output extends RPC_Service
 {
