@@ -79,6 +79,7 @@ class RPC_Server
 				@header('Content-type: text/html');
 				echo "Something nasty has happened:\n";
 				echo "<div style='padding-left:10pt;font-size:small;color:red;white-space:pre;'>".$e->getMessage()."</div>\n";
+				echo "<div style='padding-left:10pt;font-size:small;color:red;white-space:pre;'>".$e->getTraceAsString()."</div>\n";
 				echo "<div style='padding:10pt;font-size:xx-small'><a href='?".RPC_Service::SERVICE_PARAM_NAME."=ListServices'>See the list of available services for more information</a></div>\n";
 			}
 			exit;
