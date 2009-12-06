@@ -14,8 +14,16 @@ PHP5 installation ( recommended version : 5.2.0+ )
 php.ini directives
 =============================================
 
-# output the results progressively
+# You can either change the php.ini file
 output_buffering = Off
+safe_mode = Off
+memory_limit = 556M
+
+# Or you can update httpd configuration
+php_admin_flag safe_mode Off
+php_admin_value memory_limit 556M
+php_admin_value output_buffering Off
+ 
 
 =============================================
 Configuration and setup
