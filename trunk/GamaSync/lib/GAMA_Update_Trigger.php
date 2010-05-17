@@ -171,7 +171,10 @@ class GAMA_Update_Trigger
 	 */
 	function notifyByHttpCall($url)
 	{
-		echo "Notification by HTTP call: $url\n";
+		// remove the username and password
+		$urlToShow = preg_replace('/\/[^@\/]+@/', '/', $url);
+		
+		echo "Notification by HTTP call: $urlToShow\n";		
 		echo file_get_contents($url)."\n";
 	}
 }
