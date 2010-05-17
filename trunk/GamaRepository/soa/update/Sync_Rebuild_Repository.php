@@ -30,13 +30,26 @@ class Sync_Rebuild_Repository extends RPC_Service
 		set_time_limit(0); // disable execution timeout during the loading process
 		
 		app_lock(LOCK_EX);
-			$this->doCopyExternalConfig();
-			$this->doCleanup();
-			//$this->doRebuildTagcloud();
-			$this->doLoadSchema();
-			$this->doLoadData();
-			$this->doLoadSimilarities();
-			$this->doRebuildCaches();
+		
+			// checking for rebuild in progress by locking in non-blocking mode
+			$rebuildlock = fopen(__FILE__, 'r');
+			if( !$rebuildlock || !flock( $rebuildlock, LOCK_EX|LOCK_NB, $wouldblock) || $wouldblock)
+			{
+				app_unlock();
+				throw new Exception('Rebuild already in progress');
+			}
+			
+				$this->doCopyExternalConfig();
+				$this->doCleanup();
+				//$this->doRebuildTagcloud();
+				$this->doLoadSchema();
+				$this->doLoadData();
+				$this->doLoadSimilarities();
+				$this->doRebuildCaches();
+			
+			// unlocking
+			flock($rebuildlock, LOCK_UN);
+			
 		app_unlock();
 	}
 	
