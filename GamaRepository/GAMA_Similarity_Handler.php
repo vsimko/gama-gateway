@@ -147,13 +147,17 @@ class GAMA_Similarity_Handler implements Triple_Handler_Interface, Report_Unknow
 	 */
 	private function buffer2frame()
 	{
-		dispatcher()->onNewFrame(
-			$this->buffer['http://gama-gateway.eu/schema/main_manif'],
-			$this->buffer['http://gama-gateway.eu/schema/similar_manif'],
-			$this->buffer['http://gama-gateway.eu/schema/shotid'],
-			$this->buffer['http://gama-gateway.eu/schema/weight'],
-			$this->buffer['http://gama-gateway.eu/schema/best_match']
-			);
+		try {
+			dispatcher()->onNewFrame(
+				$this->buffer['http://gama-gateway.eu/schema/main_manif'],
+				$this->buffer['http://gama-gateway.eu/schema/similar_manif'],
+				$this->buffer['http://gama-gateway.eu/schema/shotid'],
+				$this->buffer['http://gama-gateway.eu/schema/weight'],
+				$this->buffer['http://gama-gateway.eu/schema/best_match']
+				);
+		} catch(Exception $e) {
+			echo "EXCEPTION: $e";
+		}
 	}
 }
 
