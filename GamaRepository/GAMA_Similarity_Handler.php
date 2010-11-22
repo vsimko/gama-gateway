@@ -156,7 +156,7 @@ class GAMA_Similarity_Handler implements Triple_Handler_Interface, Report_Unknow
 				$this->buffer['http://gama-gateway.eu/schema/best_match']
 				);
 		} catch(Exception $e) {
-			echo "EXCEPTION: $e";
+			echo "\nEXCEPTION: ".$e->getMessage()."\n";
 		}
 	}
 }
