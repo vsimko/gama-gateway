@@ -1,5 +1,7 @@
 # Gama-gateway RDF Repository 
 
+![Gama Gateway logo](http://research.ciant.cz/twiki42/pub/Main/GamaProject/logo_gama.png)
+
 *Automatically exported from code.google.com/p/gama-gateway*
 
 This git repository contains RDF-repository component of the Gama Gateway project.
