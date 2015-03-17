@@ -1,0 +1,213 @@
+# Introduction #
+
+This page should provide an overview of the implementation approach and the current status of database adapters. The information provided here is useful for content partners interested in a brief description about the way their data is **translated** to the GAMA format. Also the various **quality checks** are briefly described here.
+
+**Mandatory data for the frontend**
+
+  * **works**:<br />- archive <br />- work\_title<br />- creation date: work\_created/presentation\_date (at least a year)<br />- creator<br />- work\_type<br />- work\_description<br />- manifestation
+  * **artists**:<br />- person\_name<br />- life\_span<br />- person\_country
+
+
+## DB-Adapter: Ars Electronica Center ##
+
+XML files are prepared directly by the content partner.<br />
+They underlie a simplified schema and therefore have to be transformed to GAMA schema.
+
+### Data ###
+
+  * Used encoding (by cp): ISO-8859-1
+
+**Artists** -^- 489 (479 Persons, 10 Collectives)
+
+  * There are 41 _negative_ values for IDs:<br />Person: -49, -47, -46, -45, -43, -42, -41, -40, -39, -36, -34, -33, -30, -29, -28, -27, -26, -25, -24, -23, -22, -21, -20, -19, -18, -17, -16, -15, -14, -13, -11, -10, - 9, - 8, - 7, - 6, - 5, - 4, - 3, - 2, - 1.<br />Collective: -44.<br />-
+  * person\_name: always given.
+  * <font color='red'>life_span: not provided.</font>
+  * <font color='red'>person_country : 69 persons have no person_country.</font>
+
+**Works** -^- 749 (Artworks: 669 , Events: 80)
+
+  * <font color='red'>work_title: 19 without title.<br />SET TO "UNKNOWN"</font>
+  * work\_created/presentation\_date: always given.
+  * <font color='red'>creator: 28 works have no creator!</font>
+  * <font color='red'>work_type: there are strange worktypes like "Event/Sicher im Netz - Symposium"</font>
+  * <font color='red'>work_description: 415 works have no description.</font>
+
+## DB-Adapter: Argos vzw Centre for Art and Media ##
+
+Content partner provide a database dump with all required informations, including mapping.<br />
+Only keywords are not provided atm.
+
+**=> There are problems with encoding of the new database dump <=**
+
+### Data ###
+
+**Artists** -^- 3946 (3333 persons, 613 collectives)
+
+  * person\_name: always given.
+  * <font color='red'>life_span: 3805 without lifespan.</font>
+  * <font color='red'>person_country: 3859 without country.</font>
+
+**Works** -^- 4219 (1250 artworks, 2967 events, 2 resources)
+
+  1. **artworks**
+    * <font color='red'>work_title: 3 without title (3688bd4e01b44d40aa95bcbba0b4877f, 609d9460a5214ff8abd6610acfac7744, bf897909a2734997ba0677c7fbf9d46e)</font>
+    * <font color='red'>work_created: 37 without creation date.</font>
+    * <font color='red'>creator: 14 without creator! (0b91d8ac2f8d4176a141789ae517f0a9, 10768078cfa44befa46ac1e1611716bd, 1976b2f598a94ae08f268d10fe976b38, 2f42d022e78d45d3b1d2e0e3722889ad, 3688bd4e01b44d40aa95bcbba0b4877f, 36c3a2b943714167b1cee4e8d234c094, 4db5bc6411f94718835b409ca793ee1e, 4f20bf5f94e74deab50b656e92adbfb4, 8659f3f783ca47659ddaddc5f9c55fec, a2852d2a297542d39d0949b87a210087, c5d0ddb2ad724a45a3d6fd4f1c1adf4c, c735cd9d1b0d4361bae2e5ce60f3ca31, e52b59338d464c9b847c404698ddcf5e, f8cfe9acb0014bdcaada008f39d1e939)</font>
+    * <font color='blue'>work_type: atm manually defined as "FilmArt" (mail Febr, 8)</font>
+    * <font color='red'>work_description: 177 without description.</font>
+  1. **events**
+    * work\_title: always given.
+    * <font color='red'>presentation_date: 27 without date.</font>
+    * <font color='red'>creator: 101 events not related to any person.</font>
+    * <font color='red'>work_type: 2908 without worktype.</font>
+    * <font color='red'>work_description: 2899 without description.</font>
+  1. **resources**
+    * only resources of events that are in distribution (resourceevents)
+    * all mandatory fields given.
+
+## DB-Adapter: C³ Center for Culture & Communication ##
+
+XML files are prepared directly by the content partner.<br />
+They underlie a simplified schema and therefore have to be transformed to GAMA schema.<br />
+
+  * Used Encoding: UTF-8<br />**Encoding is mixed up!!!**<br />Line 3895 not UTF-8
+
+**Artists** -^- 316 (285 Persons, 31 Collectives)
+
+  * person\_name: always given.
+  * <font color='red'>life_span: 146 without life_span.</font>
+  * <font color='red'>person_country: 117 without country.</font>
+
+**Works** -^- 445 (276 artworks, 160 events, 9 resources)
+
+  * work\_title: always given.
+  * <font color='red'>work_created/presentation_date: 401 have no creation date.</font>
+  * <font color='red'>creator: 13 works without creator etc. (Work:315, Work:427, Resource:268, Resource:285, Work:269, Work:290, Work:276, Event:72, Event:68, Event:71, Work:14, Event:78, Event:405)</font>
+  * <font color='red'>work_type: 153 have no worktype.<br />-> unknown and mismatched worktypes:</font>
+> > <font color='red'>events with worktype <i>Documentation</i> (worktype of a resource)<br /> events  with worktype <i>VideoArt</i> (worktype of an artwork)<br />artworks with worktype <i>Documentation</i> (worktype of a resource</font>
+  * <font color='red'>work_description: 366 have no description. </font>
+
+## DB-Adapter: Filmform ##
+
+Connection via ODBC (Filemaker database -> only **Windows driver** given).
+
+### Data ###
+
+**Artists** -^- 242 (234 Persons, 8 Collectives)
+
+  * person\_name: always given.
+  * <font color='red'>life_span: 37 without life_span.</font>
+  * <font color='red'>person_country: 9 without person_country.</font>
+
+**Works** -^- 612 (612 artworks)
+
+  * work\_title: always given.
+  * <font color='red'>work_created: 10 without creation date. (0735, 0565, 0985, 2208, 2697, 2712, 2878, 2947, 3230, 0850)</font>
+  * <font color='red'>creator: 2 without creator. (2886, 3233)</font>
+  * <font color='red'>work_type: 17 without worktype. (0565, 0735, 0850, 0985, 2094, 2206, 2208, 2517, 2602, 2697, 2712, 2878, 2947, 3005, 3228, 3230, 3251)<br /><b>Work:0724 has 2 worktypes.</b></font>
+  * <font color='red'>work_description: 19 without description. <i>Swedish</i> description often only the following text: "Short summary"!?</font>
+
+## DB-Adapter: Heure Exquise ! ##
+
+Content partner want(ed) to create a new database. <br />
+We are still waiting for it.<br />
+
+In the old database in case of persons only names were given and sometimes 'kind of person' were incorrect.
+
+### Data (dump: 2008-12-17) ###
+
+**Artists** -^- 1293 (1273 Persons, 20 Collectives)
+
+  * person\_name:
+  * <font color='red'>life_span: not provided.</font>
+  * <font color='red'>person_country: not provided.</font>
+
+**Works** -^- 2725 (2725 artworks)
+
+  * work\_title: always given.
+  * <font color='red'>work_created: 16 without creation date. </font>
+  * <font color='red'>creator: 3 without creator. (IDs 67, 2260, 3773)</font>
+  * <font color='red'>work_type: 1 without work_type. (ID 67)</font>
+  * <font color='red'>work_description:  1 without description. (ID 67)</font>
+
+## DB-Adapter: Les Instants Vidéo ##
+
+MySQL database dump given.
+
+### Data ###
+
+**Artists** -^- 2146 (2079 Persons, 67 Collectives)
+
+  * person\_name: always given.
+  * <font color='red'>life_span: 2122 artists have no lifespan.</font>
+  * <font color='red'>person_country: not provided.</font>
+
+**Works** -^- 3652 (3652 artworks)
+
+  * unfortunately the table 'categories' contains all kinds of categories (e.g. countries, worktypes, terms) without any differentiation, so atm we split the table and then map the data<br />-
+  * work\_title: always given.
+  * <font color='red'>work_created: 134 without creation date.</font><br />There's also some strange data like _4'40_ and years in text format like "travail évolutif depuis 1999". Maybe Instants shouldn't work with simple text fields and define a consistent format?!
+  * <font color='red'>creator: 23 without creator. (105, 139, 162, 233, 435, 858, 1245, 1694, 1774, 1799, 1865, 1895, 2148, 2393, 2437, 2440, 2991, 3067, 3222, 3223, 3425, 3437, 3577)</font>
+  * <font color='red'>work_type: 929 without worktype.</font>
+  * <font color='red'>work_description: 580 without description.</font>
+
+## DB-Adapter: Netherlands Media Art Institute - Montevideo/Time Based Arts ##
+
+MySQL database dump given.
+
+### Data ###
+
+  * Countries are given in text format => transformation to ISO-Codes
+
+**Artists** -^- 1376 artists (1189 Persons, 187 Collectives)
+
+  * person\_name: always given.
+  * life\_span: <font color='red'>1010 without life_span.</font>
+  * person\_country: <font color='red'>4 without person_country</font>
+
+**Collections** -^- 5
+
+**Works** -^- 3731 (3095 artworks, 324 events, 312 resources)
+
+  1. **artworks**
+    * work\_title: always given.
+    * <font color='red'>work_created: 86 without work_created.</font>
+    * creator: always given.
+    * work\_type: always given.
+    * <font color='red'>work_description: 1428 without description.</font>
+  1. **events**
+    * work\_title: always given.
+    * presentation\_date: always given.
+    * <font color='red'>creator: 68 without creator etc.</font><br />if role not given or "subject" used gama:related\_person
+    * work\_type: always given.
+    * <font color='red'>work_description: 1 without any description (18 without description in english).</font>
+  1. **resources**
+    * 217 without related events
+    * 137 without related artworks.
+    * work\_title: always given.
+    * <font color='red'>work_created: 19 without creation date</font>
+    * creator: always given.<br />if role not given or "subject" used gama:related\_person
+    * work\_type: always given.
+    * <font color='red'>work_description: 133 without description.</font>
+
+## DB-Adapter: DIVA ##
+
+**Added by Viliam Simko:** From my point of view, XML files are prepared directly by the content partner. Sometimes, there are references to URIs that do not represent real Works. This seems to be a problem of the exporting script of the content partner that the db-adapter cannot solve. Therefore the QA checks include following procedure:
+  * Validity of URIs is performed for all works (eg. spaces are not allowed)
+  * Every work must contain at least title, description and creation date
+
+### Data ###
+
+**Artists** -^- 86 (83 Persons, 3 Collectives)
+
+  * person\_name: always given.
+  * <font color='red'>life_span: not provided.</font>
+  * <font color='red'>person_country: 67 without country.</font>
+
+**Works** -^- 379 (359 artworks, 14 events, 6 resources)
+
+  * work\_title: always given.
+  * <font color='red'>work_created/presentation_date: 5 without date. (244, 279, 357, 510, 642)</font>
+  * creator: always given.
+  * <font color='red'>work_type: 4 without worktype. (324, 667, 668, 670)</font>
+  * work\_description: always given.

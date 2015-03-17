@@ -1,0 +1,28 @@
+
+---
+
+# Development version of components #
+## RDF Repository ##
+  * http://research.ciant.cz/gama/devel/GamaRepository/ - SOAP interface
+  * http://research.ciant.cz/gama/devel/GamaRepository/endpoint/ - Endpoint interface
+  * http://research.ciant.cz/gama/devel/GamaRepository/schema/ - on-line version of the repository structure
+  * http://research.ciant.cz/gama/devel/GamaRepository/soa/?service=ListServices - Experimental SOA services
+  * http://research.ciant.cz/gama/devel/GamaRepository/soa/?service=List_Repo_Properties - List of all properties defined in the repository
+
+## Java Middleware ##
+  * http://omsk.hku.nl:8080/gama-web/json?service=search&artist_title=Vasulka&sortorder=up&sorttag=name&paramlist=provided_by,person_name,work_created,work_title,work_description,work_image,manif_url,idx_process,has_manifestation,has_creator&archive=NIMK&pagesize=10&pagenumber=1 - Json service for frontend @ HKU GAMA database
+  * http://gamaweb.hku.nl/ - Typo3 frontend will move to CIANT
+
+
+---
+
+# Stable version of components #
+## RDF Repository ##
+  * http://research.ciant.cz/gama/GamaRepository/ - SOAP interface
+  * http://research.ciant.cz/gama/GamaRepository/endpoint/ - Endpoint interface
+  * http://research.ciant.cz/gama/GamaRepository/schema/ - online version of repository structure
+  * http://research.ciant.cz/gama/GamaRepository/soa/?service=ListServices - Experimental SOA services
+  * http://research.ciant.cz/gama/GamaRepository/soa/?service=List_Repo_Properties - List of all properties defined in the repository
+
+## Java Middleware ##
+  * 
