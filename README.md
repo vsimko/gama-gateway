@@ -1,5 +1,5 @@
 **IMPORTANT: The Gama Gateway project was finished in 2009 and is not maintained anymore!**
-![Gama Gateway logo](http://research.ciant.cz/twiki42/pub/Main/GamaProject/logo_gama.png)
+![Gama Gateway logo](gama-gateway-logo.png)
 
 # Gama Gateway RDF Repository 
 *Automatically exported from code.google.com/p/gama-gateway*
