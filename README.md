@@ -5,11 +5,11 @@
 
 However, the RDF-Repository developed through the Gama Gateway project is a self-contained application that might be interesting also from outside of the Gama Gateway community.
 It consists of the following components:
- * **GamaLib**: Code shared also by other components in the Gama Gateway project.
- * **GamaRepository**: Code specific to the RDF-repository.
- * **GamaSchema**: Metamodel used in the Gama Gateway project.
- * **GamaSync**: A set of scripts (simple REST api) that implements update of the repository content.
- * **GamaLevenshtein**: MySQL UDF extensions for computing Levenshtein distance.
+ * [**GamaLib**](GamaLib/): Code shared also by other components in the Gama Gateway project.
+ * [**GamaRepository**](GamaRepository/): Code specific to the RDF-repository.
+ * [**GamaSchema**](GamaSchema/): Metamodel used in the Gama Gateway project.
+ * [**GamaSync**](GamaSync/): A set of scripts (simple REST api) that implements update of the repository content.
+ * [**GamaLevenshtein**](GamaLevenshtein/): MySQL UDF extensions for computing Levenshtein distance.
 
 
 ## Other links
