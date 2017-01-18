@@ -12,7 +12,7 @@ It consists of the following components:
  * [**GamaLevenshtein**](GamaLevenshtein/): MySQL UDF extensions for computing Levenshtein distance.
 
 
-## Other links
+## Other links (some of them might not work anymore)
 * Last known URL of the running Gama Gateway portal: http://www.gama-gateway.eu/
 * Original SVN repository hosted at Google Code https://code.google.com/p/gama-gateway/
 * Gama Gateway as an EU-funded project: http://ec.europa.eu/information_society/apps/projects/factsheet/index.cfm?project_ref=ECP-2006-DILI-510029
