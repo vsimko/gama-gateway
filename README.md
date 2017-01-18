@@ -14,5 +14,6 @@ It consists of the following components:
 
 ## Other links (some of them might not work anymore)
 * Last known URL of the running Gama Gateway portal: http://www.gama-gateway.eu/
-* Original SVN repository hosted at Google Code https://code.google.com/p/gama-gateway/
-* Gama Gateway as an EU-funded project: http://ec.europa.eu/information_society/apps/projects/factsheet/index.cfm?project_ref=ECP-2006-DILI-510029
+* Gama Gateway as an EU-funded project: **ECP-2006-DILI-510029**
+* https://www.researchgate.net/publication/255572406_Accessing_Media_Art_via_the_GAMA_Portal
+* http://www.infomus.org/Events/proceedings/UCMedia2009/pdf/paper8303.pdf
