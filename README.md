@@ -11,6 +11,14 @@ It consists of the following components:
  * [**GamaSync**](GamaSync/): A set of scripts (simple REST api) that implements update of the repository content.
  * [**GamaLevenshtein**](GamaLevenshtein/): MySQL UDF extensions for computing Levenshtein distance.
 
+## Screenshots from the last running instance
+<img src="screenshots/GamaScreenshot01.png" width="120">
+<img src="screenshots/GamaScreenshot02.png" width="120">
+<img src="screenshots/GamaScreenshot03.png" width="120">
+<img src="screenshots/GamaScreenshot04.png" width="120">
+<img src="screenshots/GamaScreenshot05.png" width="120">
+<img src="screenshots/GamaScreenshot06.png" width="120">
+
 
 ## Other links (some of them might not work anymore)
 * Last known URL of the running Gama Gateway portal: http://www.gama-gateway.eu/
