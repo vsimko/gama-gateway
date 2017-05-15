@@ -11,6 +11,9 @@ It consists of the following components:
  * [**GamaSync**](GamaSync/): A set of scripts (simple REST api) that implements update of the repository content.
  * [**GamaLevenshtein**](GamaLevenshtein/): MySQL UDF extensions for computing Levenshtein distance.
 
+The Gama schema is modeled in OWL using a RDF/XML notation.
+* [**Download schema-base.owl**](https://raw.githubusercontent.com/vsimko/gama-gateway/master/GamaSchema/schema-base.owl)
+
 ## Screenshots from the last running instance
 <img src="screenshots/GamaScreenshot01.png" width="120">
 <img src="screenshots/GamaScreenshot02.png" width="120">
